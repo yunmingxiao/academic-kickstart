@@ -20,15 +20,15 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Ph.D. in Computer Science"
   company = "Northwestern University"
-  company_url = ""
+  company_url = "https://www.northwestern.edu/"
   location = "Evanston, US"
   date_start = "2019-09-01"
   date_end = ""
 
 [[experience]]
-  title = "B.Eng."
+  title = "B.Eng. in Computer Science"
   company = "Beijing University of Posts and Telecommunications"
-  company_url = ""
+  company_url = "https://english.bupt.edu.cn/"
   location = "Beijing, China"
   date_start = "2015-09-01"
   date_end = "2019-06-30"

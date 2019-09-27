@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Intern for Infrastructure R&D"
   company = "ByteDance Inc."
-  company_url = ""
+  company_url = "https://bytedance.com/"
   location = "Beijing, China"
   date_start = "2019-03-15"
   date_end = "2019-07-01"
@@ -38,7 +38,7 @@ date_format = "Jan 2006"
   date_start = "2018-07-21"
   date_end = "2019-10-30"
   description = """
-  Advisor: Prof. Marco Canini
+  Advisor: <a href="https://mcanini.github.io/">Prof. Marco Canini</a>
   """
 
 [[experience]]
@@ -49,7 +49,7 @@ date_format = "Jan 2006"
   date_start = "2018-03-01"
   date_end = "2018-07-01"
   description = """
-  Advisor: Prof. Wenfei Wu
+  Advisor: <a href="http://wenfei-wu.github.io/">Prof. Wenfei Wu</a>
   """
 
 [[experience]]
@@ -60,7 +60,7 @@ date_format = "Jan 2006"
   date_start = "2018-03-01"
   date_end = "2018-07-01"
   description = """
-  Advisor: Prof. Jingyu Wang
+  Advisor: <a href="https://www.researchgate.net/profile/Jingyu_Wang2">Prof. Jingyu Wang</a>
   """
 
 [[experience]]
@@ -71,7 +71,7 @@ date_format = "Jan 2006"
   date_start = "2018-03-01"
   date_end = "2018-07-01"
   description = """ 
-  Advisor: Prof. Bin Wu
+  Advisor: <a href="https://scholar.google.com/citations?user=C4T5WicAAAAJ">Prof. Bin Wu</a>
   """
 
 +++

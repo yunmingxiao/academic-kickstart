@@ -65,9 +65,9 @@ social:
   link: https://www.linkedin.com/in/yunming-xiao-386891122/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv_xym.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "yunming.xiao AT u.northwestern.edu"
@@ -82,6 +82,6 @@ lastdate: 26/Sep/2019
 
 ---
 
-Hi there! I'm currently a first-year PhD student in Computer Science at Northwestern University. I received my B.Eng. in computer science from BUPT (Beijing University of Posts and Telecommunications) in 2019.
+Hi there! I am a first-year PhD student in Computer Science at Northwestern University. I received my B.Eng. in computer science from BUPT (Beijing University of Posts and Telecommunications) in 2019. 
 
-My research interests primarily include computer networking and distributed systems. I have also explored other subjects like the evolutionary game theory.
+My research interests lie in computer networking and distributed systems. I have also explored other subjects like machine learnings and evolutionary game theory.

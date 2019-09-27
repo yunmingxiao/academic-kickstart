@@ -12,7 +12,7 @@ day_night = true
 font = "default"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Personal Website of Yunming Xiao"
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = ""
@@ -59,8 +59,8 @@ time_format = "3:04 PM"
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "yunming.xiao@u.northwestern.edu"
-phone = "+86 15600931195"
-address = "1100 Church St, Evanston, Illinois, USA"
+phone = "+1 (773)-273-0957"
+address = "2233 Tech Dr, Seeley Mudd 3-416, Evanston, IL 60208"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 #office_hours = """Monday 10:00 to 13:00<br>

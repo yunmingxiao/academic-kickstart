@@ -23,7 +23,6 @@ bio: My research interests lie in computer networking and distributed systems.
 
 news:
 - 09/2019 Research on clustering of mutants accepted by PLOS Comp Bio
-- 08/2019 Attended the SIGCOMM'2019 in Beijing (without submission)
 - 07/2019 Finished intern at Bytedance Inc.
 - 06/2019 Received my bachlor's degree!
 - "..."

@@ -33,5 +33,10 @@ date_format = "Jan 2006"
   organization_url = "http://jw.beijing.gov.cn/"
   title = "Beijing Excellent Undergraduate"
   date_start = "2019-07-01"
+
+[[item]]
+  organization = "Chinese Physical Society"
+  title = "Bronze Medal of the 31st Chinese Physics Olympiad"
+  date_start = "2014-11-01"
   
 +++

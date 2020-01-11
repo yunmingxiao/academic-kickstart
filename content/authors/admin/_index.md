@@ -22,6 +22,7 @@ organizations:
 bio: My research interests lie in computer networking and distributed systems.
 
 news:
+- 01/2020 De-Kodi is accepted by WWW'2020
 - 09/2019 Research on clustering of mutants accepted by PLOS Comp Bio
 - 07/2019 Finished intern at Bytedance Inc.
 - 06/2019 Received my bachelor's degree!
@@ -54,12 +55,12 @@ social:
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=orO8ymwAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/Awdrtgg
+  link: https://github.com/yunmingxiao
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/yunming-xiao-386891122/
@@ -78,10 +79,10 @@ user_groups:
 - Researchers
 - Visitors
 
-lastdate: 26/Sep/2019
+lastdate: 11/Jan/2020
 
 ---
 
 Hi there! I am a first-year PhD student in Computer Science at Northwestern University. I received my B.Eng. in computer science from BUPT (Beijing University of Posts and Telecommunications) in 2019. 
 
-My research interests lie in computer networking and distributed systems. I have also explored other subjects like machine learnings and evolutionary game theory.
+My research interests lie in computer networking and distributed systems. I have also explored other subjects like machine learning and evolutionary game theory.

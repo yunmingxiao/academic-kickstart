@@ -6,7 +6,7 @@ authors:
 - Matteo Varvello
 - Aleksandar Kuzmanovic
 date: "2020-01-10T00:00:00Z"
-#doi: "10.1109/LCN.2018.8638070"
+doi: "10.1145/3366423.3380194"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-01-10T00:00:00Z"
@@ -29,8 +29,8 @@ featured: false
 
 links:
 - name: ACM
-#  url: https://ieeexplore.ieee.org/document/8638070
-#url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
+  url: https://doi.org/10.1145/3366423.3380194
+url_pdf: https://safekodi.com/resource/dekodi.pdf
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'
@@ -51,8 +51,8 @@ links:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-#projects:
-#- internal-project
+projects:
+- internal-project
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

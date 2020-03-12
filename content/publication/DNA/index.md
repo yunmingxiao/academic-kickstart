@@ -30,7 +30,7 @@ featured: false
 
 links:
 - name: ArXiv
-  url: https://arxiv.org/abs/1811.08718
+  url: https://arxiv.org/abs/1905.11692
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'

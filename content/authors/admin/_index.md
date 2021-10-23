@@ -22,11 +22,14 @@ organizations:
 bio: My research interests lie in computer networking and distributed systems.
 
 news:
+- 10/2021 I'll present <a href="projectsfolder/ring">one poster about DVPN</a> at IMC'21, and <a href="projectsfolder/fiat">one poster about IoT security</a> at CoNEXT'21
+- 06/2021 I have started my internship at <a href="https://www.bell-labs.com/">Nokia Bell Labs</a>!
+- 06/2021 I have passed the PhD qualifying exam
 - 01/2020 De-Kodi is accepted by WWW'2020
 - 09/2019 Research on clustering of mutants accepted by PLOS Comp Bio
 - 07/2019 Finished intern at Bytedance Inc.
 - 06/2019 Received my bachelor's degree!
-- "..."
+# - "..."
 
 #education:
 #  courses:
@@ -79,10 +82,10 @@ user_groups:
 - Researchers
 - Visitors
 
-lastdate: 12/Mar/2020
+lastdate: 20/Oct/2021
 
 ---
 
-Hi there! I am a first-year PhD student in Computer Science at Northwestern University. I received my B.Eng. in computer science from BUPT (Beijing University of Posts and Telecommunications) in 2019. 
+Hi there! I am a third-year PhD candidate in Computer Science at Northwestern University. I'm working at <a href="http://networks.cs.northwestern.edu/">Northwestern Networks Group</a> and supervised by <a href="http://networks.cs.northwestern.edu/website/index-a.html">Prof. Aleksandar Kuzmanovic</a>. I received my B.Eng. in computer science from Beijing University of Posts and Telecommunications in 2019. 
 
-My research interests lie in computer networking and distributed systems. I have also explored other subjects like machine learning and evolutionary game theory.
+My research interests lie in computer networking and distributed systems. I have also explored other subjects like evolutionary game theory.

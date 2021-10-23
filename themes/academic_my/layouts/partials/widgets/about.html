@@ -87,8 +87,19 @@
       <div class="col-md-12">
         <h3>{{ "News" | markdownify }}</h3>
         <ul class="ul-news">
-          {{ range . }}
-          <li>{{ . | markdownify | emojify }}</li>
+          {{ $len := (len .) }}
+          {{ range $index, $value := . }}
+            {{ if (lt $index 4) }}
+              <li>{{ $value | markdownify | emojify }}</li>
+            {{ else if (eq $index 4) }}
+              <li class="hidden-news-fixed" style="display: inline-block" onclick="toggle_news()"><u>......</u></li>
+              <li class="hidden-news" style="display: none">{{ $value | markdownify | emojify }}</li>
+            {{ else }}
+              <li class="hidden-news" style="display: none">{{ $value | markdownify | emojify }}</li>
+            {{ end }}
+            {{ if (eq (add $index 1) $len) }}
+              <li class="hidden-news-fixed" style="display: none" onclick="toggle_news()"><u>Less</u></li>
+            {{ end }}
           {{ end }}
         </ul>
       </div>
@@ -123,3 +134,25 @@
     </div>
   </div>
 </div>
+
+<script>
+  function toggle_news() {
+  // var news_elements = document.getElementsByClassName("hidden-news");
+  for (const element of document.getElementsByClassName("hidden-news")){
+    // element.style.display="none";
+    if (element.style.display == "none") {
+      element.style.display = "list-item";
+    } else {
+      element.style.display = "none";
+    }
+  }
+  for (const element of document.getElementsByClassName("hidden-news-fixed")){
+    // element.style.display="none";
+    if (element.style.display == "none") {
+      element.style.display = "inline-block";
+    } else {
+      element.style.display = "none";
+    }
+  }
+}
+</script>

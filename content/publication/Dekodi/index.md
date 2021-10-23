@@ -18,8 +18,8 @@ publishDate: "2020-01-10T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: To appear in *The World Wide Web Conference 2020*
-publication_short: To appear in *WWW'20*
+publication: In Proceedings of *The World Wide Web Conference 2020*
+publication_short: In *WWW'20*
 
 abstract: Free and open source media centers are currently experiencing a boom in popularity for the convenience and flexibility they offer users seeking to remotely consume digital content. This newfound fame is matched by increasing notoriety — for their potential to serve as hubs for illegal content — and a presumably ever-increasing network footprint. It is fair to say that a complex ecosystem has developed around Kodi, composed of millions of users, thousands of “add-ons” – Kodi extensions from from 3rd-party developers – and content providers. Motivated by these observations, this paper aims at conducing the first analysis of the Kodi ecosystem. Our rationale is to build some “crawling” software around Kodi which can automatically install an addon, explore its menu, and locate (video) content. This is challenging for many reasons. First, Kodi largely relies on visual information and user input which intrinsically complicates automation. Second, no central aggregators for Kodi addons exist. Third, the potential sheer size of this ecosystem requires a highly scalable crawling solution. We address these challenges with de-Kodi, a full fledged crawling system capable of discovering and crawling large cross-sections of Kodi’s decentralized ecosystem at tunable levels of depth and breadth. With de-Kodi, we discovered and tested over 9,000 distinct Kodi addons. Our results demonstrate de-Kodi, which we make available to the general public, to be a essential asset in studying one of the largest multimedia platforms in the world. Our work further serves as the first ever transparent and repeatable analysis of the Kodi ecosystem at large.
 

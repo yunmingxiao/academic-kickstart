@@ -41,9 +41,11 @@ A nice video to demonstrate the usage of SafeKodi:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9outnVKMQ1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
+<h3>Resources</h3>
+<a href="https://safekodi.com/">SafeKodi: The first aggregator for (safe) Kodi addons</a>
+<br>
 <h3>Publications</h3>
-1. Marc Anthony Warrior, Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2020). <a href="../../publication/dekodi/">De-Kodi: Understanding the Kodi Ecosystem</a>. To appear in WWW’20.
-
+1. Marc Anthony Warrior, Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2020). <a href="../../publication/dekodi/">De-Kodi: Understanding the Kodi Ecosystem</a>. In WWW’20.
 <br>
 <h3>Media Coverage</h3>
 1. <a href="https://torrentfreak.com/safekodi-researchers-help-kodi-users-to-spot-malicious-addons-200306/">SafeKodi: Researchers Help Kodi Users to Spot Malicious Addons - TorretFreak.com</a><br>
@@ -59,7 +61,6 @@ A nice video to demonstrate the usage of SafeKodi:
 11. <a href="https://troypoint.com/safekodi/">Is Your Kodi Virus Free? Use SafeKodi to Scan & Fix - TroyPoint.com</a><br>
 12. <a href="https://troypoint.com/safekodi/">SafeKodi: O maior aliado de quem usa o Kodi - NoticiasETecnologia.com</a><br>
 ......
-
 <br>
 <h3>More videos</h3>
 <a href="https://www.youtube.com/watch?v=xCW_2v1vkWM">Is Your Kodi Virus Free? How to Scan With SafeKodi - TROYPOINT Vids</a><br>

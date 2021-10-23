@@ -31,12 +31,12 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Beijing Municiple Education Commission"
   organization_url = "http://jw.beijing.gov.cn/"
-  title = "Beijing Excellent Undergraduate"
+  title = "Distinguished Undergraduate Student in Beijing"
   date_start = "2019-07-01"
 
 [[item]]
   organization = "Chinese Physical Society"
-  title = "Bronze Medal of the 31st Chinese Physics Olympiad"
+  title = "Third Prize (Bronze Medal) in the 31st Chinese Physics Olympiad"
   date_start = "2014-11-01"
   
 +++

@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 5  # Order that this section will appear.
 
 title = ""
-subtitle = "CV"
+subtitle = "Download"
 +++
 
-<a href="../files/cv_xym.pdf">CV download</a>
+<a href="../files/cv_xym.pdf">Curriculum Vitae</a>

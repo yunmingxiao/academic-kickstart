@@ -22,7 +22,7 @@ organizations:
 bio: My research interests lie in computer networking and distributed systems.
 
 news:
-- 06/2022 <a href="publication/ring">One paper</a> is accepted by <a href="https://aft.acm.org/aft22/index.html">AFT'22</a>!
+- 06/2022 <a href="publication/aft22">One paper</a> is accepted by <a href="https://aft.acm.org/aft22/index.html">AFT'22</a>!
 - 03/2022 <a href="publication/ring">RING</a> is accepted by <a href="https://www.sigmetrics.org/sigmetrics2022/">SIGMETRICS'22</a>!
 - 03/2022 I'll join <a href="https://www.hpe.com/us/en/hewlett-packard-labs.html">Hewlett Packard Labs</a> as a Research Associate Intern this summer!
 - 10/2021 I'll present <a href="projectsfolder/ring">one poster about DVPN</a> at IMC'21, and <a href="projectsfolder/fiat">one poster about IoT security</a> at CoNEXT'21

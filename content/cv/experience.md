@@ -28,12 +28,28 @@ date_format = "Jan 2006"
   Advisor: <a href="http://networks.cs.northwestern.edu/website/index-a.html">Prof. Aleksandar Kuzmanovic</a>
 
   Projects:
+
+  * <a href="../projectsfolder/ring">A First Look Into Distributed VPNs</a>
+
+  * <a href="../projectsfolder/dekodi">De­Kodi and SafeKodi: Understanding the Kodi Ecosystem</a>
+
+  * Understanding Proof­-of-­Work Mining Pools
+  """
+
+[[experience]]
+  title = "Networking Research Intern"
+  company = "Nokia Bell Labs"
+  company_url = "https://www.bell-labs.com/"
+  location = "(Virtual) New Jersey, USA"
+  date_start = "2021-07-01"
+  date_end = "2019-09-01"
+  description = """
+  Advisor: <a href="https://www.bell-labs.com/about/researcher-profiles/matteovarvello/">Dr. Matteo Varvello</a>,
+  <a href="https://www.bell-labs.com/about/researcher-profiles/tvlakshman/">Dr. T.V. Lakshman</a>
+
+  Projects:
   
-  * RING: One DVPN Tool to Rule Them All
-
-  * De­Kodi and SafeKodi: Understanding the Kodi Ecosystem 
-
-  * Understanding Proof­of­Work Mining Pools
+  * <a href="../projectsfolder/fiat">FIAT: Frictionless Authentication of IoT Traffic</a>.
   """
 
 [[experience]]
@@ -61,7 +77,7 @@ date_format = "Jan 2006"
 
   Projects:
   
-  * Direct Nonlinear Acceleration
+  * <a href="../publication/dna/">Direct Nonlinear Acceleration</a>
   """
 
 [[experience]]
@@ -91,9 +107,9 @@ date_format = "Jan 2006"
 
   Projects:
   
-  * Transfer Learning on Traffic Classification
+  * <a href="../publication/lcn18/">Transfer Learning on Traffic Classification</a>
 
-  * Clustering favors and disfavors fixation
+  * <a href="../publication/ploscomp/">Clustering favors and disfavors fixation</a>
   """
 
 #[[experience]]

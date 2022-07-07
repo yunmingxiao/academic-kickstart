@@ -42,8 +42,7 @@ The analysis of up to six months of dVPNs data shows that  the  three  major  dV
 <a href="https://ringdvpn.com/">RING: The first multi-vendors bandwidth marketplace</a>
 <br>
 <h3>Poster</h3>
-Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2021). <a href="poster_ring.pdf">A First Look Into Distributed VPNs</a>. In IMC'21.
+Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2021). <a href="poster_ring.pdf">A First Look Into Distributed VPNs</a>. In IMC'21. <a href="poster_poster_ring.pdf">[Poster PDF]</a>
 <br>
 <h3>Publications</h3>
-...
-<!-- 1. Marc Anthony Warrior, Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2020). <a href="../../publication/dekodi/">De-Kodi: Understanding the Kodi Ecosystem</a>. In WWW’20. -->
+1. Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2022). <a href="../../publication/ring/">Monetizing Spare Bandwidth: the Case of Distributed VPNs</a>. To appear in SIGMETRICS'22.

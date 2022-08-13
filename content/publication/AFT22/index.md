@@ -1,5 +1,5 @@
 ---
-title: "Blockchains: Mining & Staking Optimal Resource Allocation"
+title: "Blockchain Mining: Optimal Resource Allocation"
 authors:
 - Yunming Xiao
 - Sarit Markovich

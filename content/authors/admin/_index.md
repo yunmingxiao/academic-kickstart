@@ -11,7 +11,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Ph.D. student
+role: Ph.D. candidate
 
 # Organizations/Affiliations
 organizations:
@@ -22,6 +22,7 @@ organizations:
 bio: My research interests lie in computer networking and distributed systems.
 
 news:
+- 08/2022 I'll join <a href="https://techsysinfra.google/">Google</a> as a Software Engineering Intern this fall!
 - 06/2022 <a href="publication/aft22">One paper</a> is accepted by <a href="https://aft.acm.org/aft22/index.html">AFT'22</a>!
 - 03/2022 <a href="publication/ring">RING</a> is accepted by <a href="https://www.sigmetrics.org/sigmetrics2022/">SIGMETRICS'22</a>!
 - 03/2022 I'll join <a href="https://www.hpe.com/us/en/hewlett-packard-labs.html">Hewlett Packard Labs</a> as a Research Associate Intern this summer!
@@ -59,9 +60,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:yunming.xiao@u.northwestern.edu'  # For a direct email link, use "mailto:test@example.org".
-#- icon: twitter
-#  icon_pack: fab
-#  link: https://twitter.com/GeorgeCushen
+# - icon: twitter
+#   icon_pack: fab
+#   link: https://twitter.com/XiaoYunming
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=orO8ymwAAAAJ
@@ -90,6 +91,6 @@ lastdate: 01/Jul/2021
 
 ---
 
-Hi there! I am a third-year PhD candidate in Computer Science at Northwestern University. I'm working at <a href="http://networks.cs.northwestern.edu/">Northwestern Networks Group</a> and supervised by <a href="http://networks.cs.northwestern.edu/website/index-a.html">Prof. Aleksandar Kuzmanovic</a>. I received my B.Eng. in computer science from Beijing University of Posts and Telecommunications in 2019. 
+Hi there! I am a third-year PhD candidate in Computer Science at Northwestern University. I'm working at <a href="http://networks.cs.northwestern.edu/">Northwestern Networks Group</a> and supervised by <a href="http://networks.cs.northwestern.edu/website/index-a.html">Prof. Aleksandar Kuzmanovic</a>. I received my B.Eng. in Computer Science from Beijing University of Posts and Telecommunications in 2019. 
 
 My research interests lie in computer networking and distributed systems. 

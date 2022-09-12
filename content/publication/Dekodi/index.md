@@ -37,7 +37,7 @@ url_pdf: https://safekodi.com/resource/dekodi.pdf
 #url_project: ''
 #url_slides: ''
 #url_source: '#'
-#url_video: '#'
+url_video: https://safekodi.com/resource/De-Kodi.mp4
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

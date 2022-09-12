@@ -40,6 +40,8 @@ Home IoT (Internet of Things) deployments are vulnerable to local adversaries, c
 <h3>Poster</h3>
 Yunming Xiao, Matteo Varvello (2021). <a href="poster_fiat.pdf">Poster: FIAT: Frictionless Authentication of IoT Traffic</a>. In CoNEXT'21.
 <br>
+<h3>Publication</h3>
+Yunming Xiao, Matteo Varvello (2022). <a href="../../publication/fiat/">FIAT: Frictionless Authentication of IoT Traffic</a>. To appear in CoNEXT'22.
 <!-- <br>
 <h3>Technical Report</h3>
 Yunming Xiao, Matteo Varvello (2021). <a href="../../files/frictionless.pdf">FIAT: Frictionless Authentication of IoT Traffic</a>. 

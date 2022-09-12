@@ -22,6 +22,8 @@ organizations:
 bio: My research interests lie in computer networking and distributed systems.
 
 news:
+- 09/2022 <a href="publication/safekodi">SafeKodi</a> is accepted by <a href="https://dl.acm.org/journal/tweb">TWEB</a>!
+- 09/2022 <a href="publication/fiat">FIAT</a> is accepted by <a href="https://conferences2.sigcomm.org/co-next/2022/#!/home">CoNEXT'22</a>!
 - 08/2022 I'll join <a href="https://techsysinfra.google/">Google</a> as a Software Engineering Intern this fall!
 - 06/2022 <a href="publication/aft22">One paper</a> is accepted by <a href="https://aft.acm.org/aft22/index.html">AFT'22</a>!
 - 03/2022 <a href="publication/ring">RING</a> is accepted by <a href="https://www.sigmetrics.org/sigmetrics2022/">SIGMETRICS'22</a>!
@@ -87,10 +89,10 @@ user_groups:
 - Researchers
 - Visitors
 
-lastdate: 01/Jul/2021
+lastdate: 11/Sep/2021
 
 ---
 
-Hi there! I am a third-year PhD candidate in Computer Science at Northwestern University. I'm working at <a href="http://networks.cs.northwestern.edu/">Northwestern Networks Group</a> and supervised by <a href="http://networks.cs.northwestern.edu/website/index-a.html">Prof. Aleksandar Kuzmanovic</a>. I received my B.Eng. in Computer Science from Beijing University of Posts and Telecommunications in 2019. 
+Hi there! I am a fourth-year PhD candidate in Computer Science at Northwestern University. I'm working at <a href="http://networks.cs.northwestern.edu/">Northwestern Networks Group</a> and supervised by <a href="http://networks.cs.northwestern.edu/website/index-a.html">Prof. Aleksandar Kuzmanovic</a>. I received my B.Eng. in Computer Science from Beijing University of Posts and Telecommunications in 2019. 
 
 My research interests lie in computer networking and distributed systems. 

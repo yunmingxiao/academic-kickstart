@@ -18,8 +18,8 @@ publishDate: "2022-09-11T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: To appear in *ACM Transactions on the Web* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: To appear in *TWEB*
+publication: In *ACM Transactions on the Web* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
+publication_short: In *TWEB*
 
 abstract: "Free and open source media centers are experiencing a boom in popularity for the convenience they offer users seeking to remotely consume digital content. Kodi is today’s most popular home media center, with millions of users worldwide. Kodi’s popularity derives from its ability to centralize the sheer amount of media content available on the Web, both free and copyrighted. Researchers have been hinting at potential security concerns around Kodi, due to add-ons injecting unwanted content as well as user settings linked with security holes. Motivated by these observations, this paper conducts the first comprehensive analysis of the Kodi ecosystem: 15,000 Kodi users from 104 countries, 11,000 unique add-ons, and data collected over 9 months.
 <br><br>
@@ -48,9 +48,9 @@ tags:
 featured: false
 
 links:
-# - name: ACM
-#   url: https://doi.org/10.1145/3366423.3380194
-# url_pdf: https://safekodi.com/resource/dekodi.pdf
+- name: ACM
+  url: https://doi.org/10.1145/3563700
+url_pdf: https://dl.acm.org/doi/pdf/10.1145/3563700
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'

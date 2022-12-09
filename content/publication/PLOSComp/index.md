@@ -30,10 +30,11 @@ tags:
 featured: false
 
 links:
-- name: "PLOS"
-  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007212
+# - name: "PLOS"
+#   url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007212
 - name: "Arxiv"
   url: https://arxiv.org/abs/1811.08718
+url_pdf: https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1007212&type=printable
 #url_code: ''
 #url_dataset: ''
 #url_poster: ''

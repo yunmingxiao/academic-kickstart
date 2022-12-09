@@ -3,13 +3,13 @@ title: "Decoding the Kodi Ecosystem"
 authors:
 - Yunming Xiao
 - Matteo Varvello
-- Marc Warrior
+- Marc Anthony Warrior
 - Aleksandar Kuzmanovic
-date: "2022-09-11T00:00:00Z"
-# doi: "10.1145/3366423.3380194"
+date: "2022-10-16T00:00:00Z"
+doi: "10.1145/3563700"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-09-11T00:00:00Z"
+publishDate: "2022-10-16T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -48,8 +48,8 @@ tags:
 featured: false
 
 links:
-- name: ACM
-  url: https://doi.org/10.1145/3563700
+# - name: ACM
+#   url: https://doi.org/10.1145/3563700
 url_pdf: https://dl.acm.org/doi/pdf/10.1145/3563700
 #url_code: '#'
 #url_dataset: '#'

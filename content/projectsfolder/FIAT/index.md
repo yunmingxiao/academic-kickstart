@@ -31,7 +31,7 @@ url_video: ""
 slides: ""
 ---
 
-Home IoT (Internet of Things) deployments are vulnerable to local adversaries, compromising a LAN, and remote adversaries, compromising either the accounts associated with IoT devices or third-party devices like mobile phones used to control the IoT. There is, however, a fundamental difference between an attacker and a legitimate IoT user: the physical interaction with the device (e.g., via a mobile app) used to operate the IoT. This work investigates how this physical interaction can be used to build frictionless IoT traffic authentication. We then design and build FIAT, the first third-party mechanism to automatically authorize IoT traffic by learning recurring traffic and validating human actions behind unpredictable traffic. FIAT does not require modification of the IoT devices or apps, as it operates passively on network traffic. Our evaluation shows that FIAT achieves high accuracy with minimal impact on the user experience.
+Home IoT (Internet of Things) deployments are vulnerable to local adversaries, compromising a LAN, and remote adversaries, compromising either the accounts associated with IoT devices or third-party devices like mobile phones used to control the IoT. There is, however, a fundamental difference between an attacker and a legitimate IoT user: the physical interaction with the device (e.g., via a mobile app) used to operate the IoT. Such physical interactions can be used to build frictionless authentications. However, their integration with IoT requires each vendor to independently adopt them, which is both complex and expensive. We instead design and build FIAT, the first third-party mechanism to automatically authorize IoT traffic by learning recurring traffic and validating human actions behind unpredictable traffic. FIAT does not require modification of the IoT devices or apps, as it operates passively on network traffic. Our evaluation shows that FIAT achieves high accuracy with minimal impact on the user experience.
 
 <!-- <br>
 <h3>Resources</h3>
@@ -41,7 +41,7 @@ Home IoT (Internet of Things) deployments are vulnerable to local adversaries, c
 Yunming Xiao, Matteo Varvello (2021). <a href="poster_fiat.pdf">Poster: FIAT: Frictionless Authentication of IoT Traffic</a>. In CoNEXT'21.
 <br>
 <h3>Publication</h3>
-Yunming Xiao, Matteo Varvello (2022). <a href="../../publication/fiat/">FIAT: Frictionless Authentication of IoT Traffic</a>. To appear in CoNEXT'22.
+Yunming Xiao, Matteo Varvello (2022). <a href="../../publication/fiat/">FIAT: Frictionless Authentication of IoT Traffic</a>. In CoNEXT'22.
 <!-- <br>
 <h3>Technical Report</h3>
 Yunming Xiao, Matteo Varvello (2021). <a href="../../files/frictionless.pdf">FIAT: Frictionless Authentication of IoT Traffic</a>. 

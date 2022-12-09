@@ -27,8 +27,8 @@ tags:
 featured: false
 
 links:
-- name: ACM
-  url: https://doi.org/10.1145/3530899
+# - name: ACM
+#   url: https://doi.org/10.1145/3530899
 # url_pdf: https://safekodi.com/resource/dekodi.pdf
 #url_code: '#'
 #url_dataset: '#'

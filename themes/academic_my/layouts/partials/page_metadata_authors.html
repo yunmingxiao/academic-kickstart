@@ -9,6 +9,8 @@
     <span itemprop="author name" itemtype="http://schema.org/Person">
       {{- if eq $value "Yunming Xiao" -}}
         <b>{{$name}}</b>
+      {{- else if eq $value "Yunming Xiao*" -}}
+        <b>{{$name}}</b>
       {{- else -}}
         {{$name}}
       {{- end -}}

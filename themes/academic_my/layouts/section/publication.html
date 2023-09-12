@@ -9,6 +9,10 @@
       {{ with .Content }}
       <div class="article-style" itemprop="articleBody">{{ . }}</div>
       {{ end }}
+      
+      <div>
+        <p>* For Equal Contribution</p>
+      </div>
 
       {{/* Array of distinct years. */}}
       {{ range .Pages.ByDate.Reverse }}

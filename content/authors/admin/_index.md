@@ -22,18 +22,21 @@ organizations:
 bio: My research interests lie in computer networking and distributed systems.
 
 news:
+- 09/2023 <a href="publication/snatch">Snatch</a> is accepted by <a href="https://2024.eurosys.org/index.html">EuroSys'24</a>!
+- 05/2023 <a href="publication/tensor">TENSOR</a> is accepted by <a href="https://conferences.sigcomm.org/sigcomm/2023/">SIGCOMM'23</a>! I will also present <a href="projectsfolder/pdns">a demo of a privacy-preserving DNS</a> there.
+- 05/2023 I have passed the PhD Prospectus
 - 09/2022 <a href="publication/safekodi">SafeKodi</a> is accepted by <a href="https://dl.acm.org/journal/tweb">TWEB</a>!
 - 09/2022 <a href="publication/fiat">FIAT</a> is accepted by <a href="https://conferences2.sigcomm.org/co-next/2022/#!/home">CoNEXT'22</a>!
 - 08/2022 I'll join <a href="https://techsysinfra.google/">Google</a> as a Software Engineering Intern this fall!
 - 06/2022 <a href="publication/aft22">One paper</a> is accepted by <a href="https://aft.acm.org/aft22/index.html">AFT'22</a>!
 - 03/2022 <a href="publication/ring">RING</a> is accepted by <a href="https://www.sigmetrics.org/sigmetrics2022/">SIGMETRICS'22</a>!
-- 03/2022 I'll join <a href="https://www.hpe.com/us/en/hewlett-packard-labs.html">Hewlett Packard Labs</a> as a Research Associate Intern this summer!
+- 03/2022 I'll join <a href="https://www.hpe.com/us/en/hewlett-packard-labs.html">Hewlett Packard Labs</a> as a Research Intern this summer!
 - 10/2021 I'll present <a href="projectsfolder/ring">one poster about DVPN</a> at IMC'21, and <a href="projectsfolder/fiat">one poster about IoT security</a> at CoNEXT'21
 - 06/2021 I have started my internship at <a href="https://www.bell-labs.com/">Nokia Bell Labs</a>!
-- 06/2021 I have passed the PhD qualifying exam
-- 01/2020 De-Kodi is accepted by WWW'2020
-- 09/2019 Research on clustering of mutants accepted by PLOS Comp Bio
-- 07/2019 Finished intern at Bytedance Inc.
+- 06/2021 I have passed the PhD Qualifying Exam
+- 01/2020 <a href="publication/dekodi">De-Kodi</a> is accepted by <a href="https://www2020.thewebconf.org/">WWW'2020</a>
+- 09/2019 <a href="publication/ploscomp">Research on clustering of mutants</a> accepted by <a href="https://journals.plos.org/ploscompbiol/">PLOS Computational Biology</a>
+- 07/2019 Finished intern at <a href="https://www.bytedance.com/">Bytedance</a>
 - 06/2019 Received my bachelor's degree
 # - "..."
 # - 01/2022 A technical report for FIAT is available at <a href="files/frictionless.pdf">here</a>
@@ -89,10 +92,10 @@ user_groups:
 - Researchers
 - Visitors
 
-lastdate: 28/Mar/2023
+lastdate: September 2023
 
 ---
 
-Hi there! I am a fourth-year PhD candidate in Computer Science at Northwestern University. I'm working at <a href="http://networks.cs.northwestern.edu/">Northwestern Networks Group</a> and supervised by <a href="http://networks.cs.northwestern.edu/website/index-a.html">Prof. Aleksandar Kuzmanovic</a>. I received my B.Eng. in Computer Science from Beijing University of Posts and Telecommunications in 2019. 
+Hi there! I am a fifth-year PhD candidate in Computer Science at Northwestern University. I'm working at <a href="http://networks.cs.northwestern.edu/">Northwestern Networks Group</a> and supervised by <a href="http://networks.cs.northwestern.edu/website/index-a.html">Prof. Aleksandar Kuzmanovic</a>. I received my B.Eng. in Computer Science from Beijing University of Posts and Telecommunications in 2019. 
 
-My research interests lie in computer networking and distributed systems. 
+My research interests lie in computer networking and distributed systems. My current research focuses on two primary directions: (i) enhancing the security and privacy measures of various Internet services, and (ii) advancing the reliability of data center networks, aiming to minimize downtime.

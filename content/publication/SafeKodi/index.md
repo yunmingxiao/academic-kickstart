@@ -50,7 +50,7 @@ featured: false
 links:
 # - name: ACM
 #   url: https://doi.org/10.1145/3563700
-url_pdf: https://dl.acm.org/doi/pdf/10.1145/3563700
+url_pdf: publication/safekodi/decoding_kodi_tweb.pdf
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'

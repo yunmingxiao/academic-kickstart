@@ -1,6 +1,6 @@
 ---
 title: "FIAT: Frictionless Authentication of IoT Traffic"
-summary: We propose FIAT, a firctionless authentication mechanism for IoT traffic
+summary: We propose FIAT, a firctionless authentication mechanism for IoT traffic.
 tags:
 #- Deep Learning
 date: "2021-10-01T00:00:00Z"
@@ -38,7 +38,7 @@ Home IoT (Internet of Things) deployments are vulnerable to local adversaries, c
 <a href="https://ringdvpn.com/">RING: The first multi-vendors bandwidth marketplace</a> -->
 <br>
 <h3>Poster</h3>
-Yunming Xiao, Matteo Varvello (2021). <a href="poster_fiat.pdf">Poster: FIAT: Frictionless Authentication of IoT Traffic</a>. In CoNEXT'21.
+Yunming Xiao, Matteo Varvello (2021). <a href="poster_fiat.pdf">Poster: FIAT: Frictionless Authentication of IoT Traffic</a>. In CoNEXT'21. <a href="poster_poster_fiat.pdf">[Poster PDF]</a>
 <br>
 <h3>Publication</h3>
 Yunming Xiao, Matteo Varvello (2022). <a href="../../publication/fiat/">FIAT: Frictionless Authentication of IoT Traffic</a>. In CoNEXT'22.

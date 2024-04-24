@@ -15,6 +15,11 @@ publishDate: "2019-09-16T00:00:00Z"
 # 7 = Thesis; 8 = Patent
 publication_types: ["2"]
 
+# Publication topic.
+# Legend: 0 = Uncategorized; 1 = Undergraduate Projects; 2 = Security and Privacy;
+# 3 = System Reliability; 4 = MLSys; 5 = Federated Learning; 
+publication_topics: ["1"]
+
 # Publication name and optional abbreviated publication name.
 publication: In *PLOS Computational Biology*
 publication_short: In *PLOS Computational Biology*

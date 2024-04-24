@@ -22,6 +22,8 @@ organizations:
 bio: My research interests lie in computer networking and distributed systems.
 
 news:
+- 04/2024 <a href="publication/snatch">Snatch</a> has won the <b>Best Student Paper Award</b> of <a href="https://2024.eurosys.org/index.html">EuroSys'24</a>!
+- 04/2024 I passed my PhD thesis defense!
 - 09/2023 <a href="publication/snatch">Snatch</a> is accepted by <a href="https://2024.eurosys.org/index.html">EuroSys'24</a>!
 - 05/2023 <a href="publication/tensor">TENSOR</a> is accepted by <a href="https://conferences.sigcomm.org/sigcomm/2023/">SIGCOMM'23</a>! I will also present <a href="projectsfolder/pdns">a demo of a privacy-preserving DNS</a> there.
 - 05/2023 I have passed the PhD Prospectus
@@ -92,10 +94,15 @@ user_groups:
 - Researchers
 - Visitors
 
-lastdate: September 2023
+lastdate: April 2024
 
 ---
 
 Hi there! I am a fifth-year PhD candidate in Computer Science at Northwestern University. I'm working at <a href="http://networks.cs.northwestern.edu/">Northwestern Networks Group</a> and supervised by <a href="http://networks.cs.northwestern.edu/website/index-a.html">Prof. Aleksandar Kuzmanovic</a>. I received my B.Eng. in Computer Science from Beijing University of Posts and Telecommunications in 2019. 
 
-My research interests lie in computer networking and distributed systems. My current research focuses on two primary directions: (i) enhancing the security and privacy measures of various Internet services, and (ii) advancing the reliability of data center networks, aiming to minimize downtime.
+I am broadly interested in computer networks. My current research focuses on enhancing the security, privacy,
+and reliability of Internet infrastructure and services.
+
+<!-- <font color="d62728"><b><i>
+I am on the academic job market for 2024 and am keen to connect with any potential opportunities (either postdoc or faculty). <a href="files/Yunming-Research-Statement.pdf">[Research Statement]</a>
+</i></b></font> -->

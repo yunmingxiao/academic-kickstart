@@ -10,9 +10,15 @@
   </span>
   ({{- .Date.Format "2006" -}}).<br>
   {{ if .Params.publication_short }}
-  {{- .Params.publication_short | markdownify -}}.
+  {{- .Params.publication_short | markdownify -}}. 
+    {{ if .Params.note }}
+      {{- .Params.note | markdownify -}}
+    {{ end }}
   {{ else if .Params.publication }}
   {{- .Params.publication | markdownify -}}.
+    {{ if .Params.note }}
+      {{- .Params.note | markdownify -}}
+    {{ end }}
   {{ end }}
   <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
 
@@ -25,8 +31,14 @@
   <a href="{{ .RelPermalink }}" itemprop="name">{{ .Title }}</a>.
   {{ if .Params.publication_short }}
   {{- .Params.publication_short | markdownify -}},
+    {{ if .Params.note }}
+      {{- .Params.note | markdownify -}}
+    {{ end }}
   {{ else if .Params.publication }}
   {{- .Params.publication | markdownify -}},
+    {{ if .Params.note }}
+      {{- .Params.note | markdownify -}}
+    {{ end }}
   {{ end }}
   {{- .Date.Format "2006" -}}.
   <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>

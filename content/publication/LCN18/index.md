@@ -18,6 +18,11 @@ publishDate: "2019-02-15T00:00:00Z"
 # 7 = Thesis; 8 = Patent
 publication_types: ["1"]
 
+# Publication topic.
+# Legend: 0 = Uncategorized; 1 = Undergraduate Projects; 2 = Security and Privacy;
+# 3 = System Reliability; 4 = MLSys; 5 = Federated Learning; 
+publication_topics: ["1"]
+
 # Publication name and optional abbreviated publication name.
 publication: In *IEEE 43rd Conference on Local Computer Networks*
 publication_short: In *IEEE LCN'18*

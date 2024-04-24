@@ -16,6 +16,11 @@ publishDate: "2022-09-19T00:00:00Z"
 # 7 = Thesis; 8 = Patent
 publication_types: ["1"]
 
+# Publication topic.
+# Legend: 0 = Uncategorized; 1 = Undergraduate Projects; 2 = Security and Privacy;
+# 3 = System Reliability; 4 = MLSys; 5 = Federated Learning; 
+publication_topics: ["0"]
+
 # Publication name and optional abbreviated publication name.
 publication: In *AFT'22* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
 publication_short: In *AFT'22*

@@ -17,6 +17,11 @@ publishDate: "2023-03-21T00:00:00Z"
 # 7 = Thesis; 8 = Patent
 publication_types: ["2"]
 
+# Publication topic.
+# Legend: 0 = Uncategorized; 1 = Undergraduate Projects; 2 = Security and Privacy;
+# 3 = System Reliability; 4 = MLSys; 5 = Federated Learning; 
+publication_topics: ["2"]
+
 # Publication name and optional abbreviated publication name.
 publication: In *ACM Transactions on the Web* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
 publication_short: In *TWEB*

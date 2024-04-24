@@ -207,6 +207,14 @@
       } else {
         window.location.hash = '';
       }
+    } else if (filterGroup == "pubtopic") {
+      // Set hash URL to current filter.
+      let url = $(this).val();
+      if (url.substr(0, 9) == '.pubtopic-') {
+        window.location.hash = url.substr(9);
+      } else {
+        window.location.hash = '';
+      }
     }
   });
 

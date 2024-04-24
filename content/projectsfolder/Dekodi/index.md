@@ -37,8 +37,11 @@ We developed <a href="../../publication/dekodi/">de-Kodi</a> , a full fledged cr
 
 Futhermore, on top of de-Kodi, we build a Kodi add-on <a href="https://safekodi.com">SafeKodi</a> which helps to protect Kodi users from malacious Kodi add-ons.
 
-A nice video to demonstrate the usage of SafeKodi: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9outnVKMQ1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Some nice videos to demonstrate the usage of SafeKodi: 
+
+<a href="KODI 2020_NOVEDAD PARA KODI_EL ANTIVIRUS!! [720p].mp4">KODI 2020*NOVEDAD PARA KODI*EL ANTIVIRUS!!</a><br>
+<a href="SafeKODI identifikuje nebezpečné doplnky.mp4">SafeKODI identifikuje nebezpečné doplnky</a><br>
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/9outnVKMQ1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 <br>
 <h3>Resources</h3>
@@ -66,7 +69,8 @@ A nice video to demonstrate the usage of SafeKodi:
 <br>
 <h3>More videos</h3>
 <a href="https://www.youtube.com/watch?v=xCW_2v1vkWM">Is Your Kodi Virus Free? How to Scan With SafeKodi - TROYPOINT Vids</a><br>
-<a href="https://www.youtube.com/watch?v=tLxmJLcaZq4">KODI 2020*NOVEDAD PARA KODI*EL ANTIVIRUS!! - tutvboxaldia kodi&Android</a><br>
+<a href="https://www.youtube.com/watch?v=9outnVKMQ1E">SafeKodi</a><br>
+<!-- <a href="https://www.youtube.com/watch?v=tLxmJLcaZq4">KODI 2020*NOVEDAD PARA KODI*EL ANTIVIRUS!! - tutvboxaldia kodi&Android</a><br> -->
 ...
 
 <br>

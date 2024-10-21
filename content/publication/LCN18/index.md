@@ -19,9 +19,9 @@ publishDate: "2019-02-15T00:00:00Z"
 publication_types: ["1"]
 
 # Publication topic.
-# Legend: 0 = Uncategorized; 1 = Undergraduate Projects; 2 = Security and Privacy;
-# 3 = System Reliability; 4 = MLSys; 5 = Federated Learning; 
-publication_topics: ["1"]
+# Legend: 0 = Security and Privacy; 1 = System Reliability; 2 = MLSys; 
+# 3 = Federated Learning; 4 = Blockchain; 5 = Undergraduate Projects;  6 = Uncategorized; 
+publication_topics: ["5"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *IEEE 43rd Conference on Local Computer Networks*

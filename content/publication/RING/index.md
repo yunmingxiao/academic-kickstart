@@ -17,9 +17,9 @@ publishDate: "2022-03-28T00:00:00Z"
 publication_types: ["1"]
 
 # Publication topic.
-# Legend: 0 = Uncategorized; 1 = Undergraduate Projects; 2 = Security and Privacy;
-# 3 = System Reliability; 4 = MLSys; 5 = Federated Learning; 
-publication_topics: ["2"]
+# Legend: 0 = Security and Privacy; 1 = System Reliability; 2 = MLSys; 
+# 3 = Federated Learning; 4 = Blockchain; 5 = Undergraduate Projects;  6 = Uncategorized; 
+publication_topics: ["0", "4"]
 
 # Publication name and optional abbreviated publication name.
 publication: In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 

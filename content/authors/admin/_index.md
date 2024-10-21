@@ -11,19 +11,23 @@ authors:
 superuser: true
 
 # Role/position
-role: Ph.D. candidate
+role: Research Fellow
 
 # Organizations/Affiliations
 organizations:
-- name: Northwestern University
+- name: University of Michigan
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests lie in computer networking and distributed systems.
+bio: I am broadly interested in computer networks and systems. My current research focuses on enhancing the security, privacy, and reliability of Internet infrastructure and services.
 
 news:
+- 09/2024 I will serve as the TCP of <a href="https://www.sigsac.org/ccs/CCS2025/">CCS'25</a> and APNet'25. Submissions are welcomed!
+- 06/2024 I have joined the University of Michigan as a Research Fellow!
+- 05/2024 <a href="publication/megate">MegaTE</a> is accepted by <a href="https://conferences.sigcomm.org/sigcomm/2024/">SIGCOMM'24</a>!
+- 04/2024 <a href="publication/conspirator">Conspirator</a> is accepted by <a href="https://www.usenix.org/conference/atc24">USENIX ATC'24</a>!
 - 04/2024 <a href="publication/snatch">Snatch</a> has won the <b>Best Student Paper Award</b> of <a href="https://2024.eurosys.org/index.html">EuroSys'24</a>!
-- 04/2024 I passed my PhD thesis defense!
+- 04/2024 I passed my <a href="publication/thesis">PhD thesis</a> defense!
 - 09/2023 <a href="publication/snatch">Snatch</a> is accepted by <a href="https://2024.eurosys.org/index.html">EuroSys'24</a>!
 - 05/2023 <a href="publication/tensor">TENSOR</a> is accepted by <a href="https://conferences.sigcomm.org/sigcomm/2023/">SIGCOMM'23</a>! I will also present <a href="projectsfolder/pdns">a demo of a privacy-preserving DNS</a> there.
 - 05/2023 I have passed the PhD Prospectus
@@ -56,8 +60,9 @@ news:
 #    year: 2008
 
 address: 
-- 2233 Tech Dr, Seeley Mudd 3-416
-- Evanston, IL 60208
+- 2260 Hayward St
+- Beyster Building, Room 4945
+- Ann Arbor, MI 48109
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -86,7 +91,8 @@ social:
   link: files/cv_xym.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "yunming.xiao AT u.northwestern.edu"
+# email: "yunming.xiao AT u.northwestern.edu"
+email: "yunmingx [AT] umich [DOT] edu"
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
@@ -94,14 +100,13 @@ user_groups:
 - Researchers
 - Visitors
 
-lastdate: April 2024
+lastdate: October 2024
 
 ---
 
-Hi there! I am a fifth-year PhD candidate in Computer Science at Northwestern University. I'm working at <a href="http://networks.cs.northwestern.edu/">Northwestern Networks Group</a> and supervised by <a href="http://networks.cs.northwestern.edu/website/index-a.html">Prof. Aleksandar Kuzmanovic</a>. I received my B.Eng. in Computer Science from Beijing University of Posts and Telecommunications in 2019. 
+Hi there! I am a Research Fellow at the University of Michigan working with <a href="https://web.eecs.umich.edu/~chenang/">Prof. Ang Chen</a>. I received my Ph.D. in Computer Science from Northwestern University in 2024, where my advisor was <a href="http://networks.cs.northwestern.edu/website/index-a.html">Prof. Aleksandar Kuzmanovic</a>. Before that, I received my B.Eng. in Computer Science from Beijing University of Posts and Telecommunications in 2019. 
 
-I am broadly interested in computer networks. My current research focuses on enhancing the security, privacy,
-and reliability of Internet infrastructure and services.
+I am broadly interested in computer networks and systems. My current research focuses on enhancing the <a href="publication/?filtertopic=.pubtopic-0">security, privacy</a>, and <a href="publication/?filtertopic=.pubtopic-1">reliability</a> of Internet infrastructure and services. My research has received the Best Student Paper Award from EuroSys. 
 
 <!-- <font color="d62728"><b><i>
 I am on the academic job market for 2024 and am keen to connect with any potential opportunities (either postdoc or faculty). <a href="files/Yunming-Research-Statement.pdf">[Research Statement]</a>

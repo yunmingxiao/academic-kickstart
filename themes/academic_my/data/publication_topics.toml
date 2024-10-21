@@ -1,9 +1,10 @@
 # Publication topics.
 # Each item in the list corresponds to an item in the language packs.
-topics = ["pub_uncat",
-          "pub_undergrad",
-          "pub_sp",
+topics = ["pub_sp",
           "pub_reliability",
           "pub_mlsys",
           "pub_federated",
+          "pub_blockchain",
+          "pub_undergrad",
+          "pub_uncat",
         ]

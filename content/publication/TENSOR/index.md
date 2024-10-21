@@ -23,9 +23,9 @@ publishDate: "2023-05-17T10:00:00Z"
 publication_types: ["1"]
 
 # Publication topic.
-# Legend: 0 = Uncategorized; 1 = Undergraduate Projects; 2 = Security and Privacy;
-# 3 = System Reliability; 4 = MLSys; 5 = Federated Learning; 
-publication_topics: ["3"]
+# Legend: 0 = Security and Privacy; 1 = System Reliability; 2 = MLSys; 
+# 3 = Federated Learning; 4 = Blockchain; 5 = Undergraduate Projects;  6 = Uncategorized; 
+publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *SIGCOMM'23* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 

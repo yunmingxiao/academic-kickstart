@@ -20,7 +20,7 @@
           <div class="col-12 col-md-9">
             {{ $pub_topics := partial "functions/get_pub_topics" $ }}
             {{ range $index, $pubtopic := .Params.publication_topics }}
-            <a href="{{ (site.GetPage "section" "publication").RelPermalink }}#{{ . | urlize }}">
+            <a href="{{ (site.GetPage "section" "publication").RelPermalink }}?filtertopic=.pubtopic-{{ . | urlize }}">
               {{ index $pub_topics (int .) }}
             </a>
             {{ end }}

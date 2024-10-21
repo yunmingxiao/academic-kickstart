@@ -184,13 +184,16 @@
   translation: Security & Privacy
   
 - id: pub_reliability
-  translation: System Reliability
+  translation: System/Network Reliability
   
 - id: pub_mlsys
-  translation: System For ML
+  translation: MLSys
 
 - id: pub_federated
   translation: Federated Learning
+  
+- id: pub_blockchain
+  translation: Blockchain
 
 # Project details
 

@@ -22,9 +22,9 @@ publishDate: "2022-10-15T00:00:00Z"
 publication_types: ["2"]
 
 # Publication topic.
-# Legend: 0 = Uncategorized; 1 = Undergraduate Projects; 2 = Security and Privacy;
-# 3 = System Reliability; 4 = MLSys; 5 = Federated Learning; 
-publication_topics: ["5"]
+# Legend: 0 = Security and Privacy; 1 = System Reliability; 2 = MLSys; 
+# 3 = Federated Learning; 4 = Blockchain; 5 = Undergraduate Projects;  6 = Uncategorized; 
+publication_topics: ["3", "4"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *IEEE Journal on Selected Areas in Communications* 

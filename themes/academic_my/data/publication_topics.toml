@@ -1,10 +1,7 @@
 # Publication topics.
 # Each item in the list corresponds to an item in the language packs.
 topics = ["pub_sp",
-          "pub_reliability",
-          "pub_mlsys",
-          "pub_federated",
-          "pub_blockchain",
-          "pub_undergrad",
+          "pub_cloudinfra",
           "pub_uncat",
+          "pub_undergrad",
         ]

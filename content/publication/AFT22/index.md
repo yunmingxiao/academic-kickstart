@@ -19,7 +19,7 @@ publication_types: ["1"]
 # Publication topic.
 # Legend: 0 = Security and Privacy; 1 = System Reliability; 2 = MLSys; 
 # 3 = Federated Learning; 4 = Blockchain; 5 = Undergraduate Projects;  6 = Uncategorized; 
-publication_topics: ["4"]
+publication_topics: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *AFT'22* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 

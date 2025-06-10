@@ -85,17 +85,17 @@
 
       {{ with $person.news }}
       <div class="col-md-12">
-        <h3>{{ "News" | markdownify }}</h3>
+        <h3>{{ "News" }}</h3>
         <ul class="ul-news">
           {{ $len := (len .) }}
           {{ range $index, $value := . }}
-            {{ if (lt $index 4) }}
-              <li>{{ $value | markdownify | emojify }}</li>
-            {{ else if (eq $index 4) }}
+            {{ if (lt $index 5) }}
+              <li>{{ $value | emojify }}</li>
+            {{ else if (eq $index 5) }}
               <li class="hidden-news-fixed" style="display: inline-block" onclick="toggle_news()"><u>......</u></li>
-              <li class="hidden-news" style="display: none">{{ $value | markdownify | emojify }}</li>
+              <li class="hidden-news" style="display: none">{{ $value | emojify }}</li>
             {{ else }}
-              <li class="hidden-news" style="display: none">{{ $value | markdownify | emojify }}</li>
+              <li class="hidden-news" style="display: none">{{ $value | emojify }}</li>
             {{ end }}
             {{ if (eq (add $index 1) $len) }}
               <li class="hidden-news-fixed" style="display: none" onclick="toggle_news()"><u>Less</u></li>
@@ -107,7 +107,7 @@
 
       {{ with $person.education }}
       <div class="col-md-7">
-        <h3>{{ i18n "education" | markdownify }}</h3>
+        <h3>{{ i18n "education" }}</h3>
         <ul class="ul-edu fa-ul">
           {{ range .courses }}
           <li>

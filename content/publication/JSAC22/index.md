@@ -24,7 +24,7 @@ publication_types: ["2"]
 # Publication topic.
 # Legend: 0 = Security and Privacy; 1 = System Reliability; 2 = MLSys; 
 # 3 = Federated Learning; 4 = Blockchain; 5 = Undergraduate Projects;  6 = Uncategorized; 
-publication_topics: ["3", "4"]
+publication_topics: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *IEEE Journal on Selected Areas in Communications* 

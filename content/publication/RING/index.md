@@ -19,7 +19,7 @@ publication_types: ["1"]
 # Publication topic.
 # Legend: 0 = Security and Privacy; 1 = System Reliability; 2 = MLSys; 
 # 3 = Federated Learning; 4 = Blockchain; 5 = Undergraduate Projects;  6 = Uncategorized; 
-publication_topics: ["0", "4"]
+publication_topics: ["0"]
 
 # Publication name and optional abbreviated publication name.
 publication: In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
@@ -34,7 +34,7 @@ featured: false
 links:
 # - name: ACM
 #   url: https://doi.org/10.1145/3530899
-# url_pdf: https://safekodi.com/resource/dekodi.pdf
+url_pdf: publication/ring/ring.pdf
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'

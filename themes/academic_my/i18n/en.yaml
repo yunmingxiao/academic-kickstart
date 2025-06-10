@@ -183,8 +183,8 @@
 - id: pub_sp
   translation: Security & Privacy
   
-- id: pub_reliability
-  translation: System/Network Reliability
+- id: pub_cloudinfra
+  translation: Cloud Infrastructure
   
 - id: pub_mlsys
   translation: MLSys

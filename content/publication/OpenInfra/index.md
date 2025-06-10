@@ -42,7 +42,7 @@ featured: false
 links:
 # - name: ACM
 #   url: https://doi.org/10.1145/3651890.3672242
-url_pdf: publication/OpenInfra/hotinfra24-final1.pdf
+url_pdf: publication/openinfra/hotinfra24-final1.pdf
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'

@@ -21,7 +21,7 @@ publication_types: ["2"]
 # Publication topic.
 # Legend: 0 = Security and Privacy; 1 = System Reliability; 2 = MLSys; 
 # 3 = Federated Learning; 4 = Blockchain; 5 = Undergraduate Projects;  6 = Uncategorized; 
-publication_topics: ["2", "5"]
+publication_topics: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *EURO Journal on Computational Optimization*
@@ -36,7 +36,8 @@ featured: false
 links:
 - name: ArXiv
   url: https://arxiv.org/abs/1905.11692
-url_pdf: https://www.sciencedirect.com/sdfe/reader/pii/S2192440622000235/pdf
+url_pdf: publication/dna/dna-dutta-euro.pdf
+# url_pdf: https://www.sciencedirect.com/sdfe/reader/pii/S2192440622000235/pdf
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'

@@ -22,7 +22,10 @@ organizations:
 bio: I am broadly interested in computer networks and systems. My current research focuses on enhancing the security, privacy, and reliability of Internet infrastructure and services.
 
 news:
-- 09/2024 I will serve as the TCP of <a href="https://www.sigsac.org/ccs/CCS2025/">CCS'25</a> and APNet'25. Submissions are welcomed!
+- 03/2025 I will serve as the TPC of <a href="https://sp2026.ieee-security.org/index.html">IEEE S&P'26</a> and <a href="https://apsys2025.github.io/index.html">APSys'25</a>, and ERC for <a href="https://www.asplos-conference.org/asplos2026/cfp/">ASPLOS'26</a>. Submissions are welcomed!
+- 12/2024 <a href="publication/preacher">PreAcher</a> and <a href="publication/p-ecmp">P-ECMP</a> are accepted by <a href="https://www.usenix.org/conference/nsdi25">USENIX NSDI'25</a>!
+- 11/2024 I am accepted to attend the <a href="https://sites.google.com/view/nets-early-career-2025/">NeTS Early Career Workshop 2025</a> at NSF Headquarters. See you there!
+- 10/2024 I will serve as the TPC of <a href="https://www.sigsac.org/ccs/CCS2025/">CCS'25</a>, <a href="https://petsymposium.org/index.php">PETS/PoPETs'25</a>, and <a href="https://conferences.sigcomm.org/events/apnet2025/index.php">APNet'25</a>. Submissions are welcomed!
 - 06/2024 I have joined the University of Michigan as a Research Fellow!
 - 05/2024 <a href="publication/megate">MegaTE</a> is accepted by <a href="https://conferences.sigcomm.org/sigcomm/2024/">SIGCOMM'24</a>!
 - 04/2024 <a href="publication/conspirator">Conspirator</a> is accepted by <a href="https://www.usenix.org/conference/atc24">USENIX ATC'24</a>!
@@ -71,13 +74,14 @@ address:
 social:
 - icon: envelope
   icon_pack: fas
+  # link: 'mailto:yunmingx@umich.edu'  # For a direct email link, use "mailto:test@example.org".
   link: 'mailto:yunming.xiao@u.northwestern.edu'  # For a direct email link, use "mailto:test@example.org".
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/XiaoYunming
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=orO8ymwAAAAJ
+  link: https://scholar.google.com/citations?user=orO8ymwAAAAJ&sortby=pubdate
 - icon: github
   icon_pack: fab
   link: https://github.com/yunmingxiao
@@ -92,7 +96,7 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 # email: "yunming.xiao AT u.northwestern.edu"
-email: "yunmingx [AT] umich [DOT] edu"
+email: "yunming.xiao [AT] u.northwestern.edu"
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
@@ -100,13 +104,23 @@ user_groups:
 - Researchers
 - Visitors
 
-lastdate: October 2024
+lastdate: June 2025
 
 ---
 
 Hi there! I am a Research Fellow at the University of Michigan working with <a href="https://web.eecs.umich.edu/~chenang/">Prof. Ang Chen</a>. I received my Ph.D. in Computer Science from Northwestern University in 2024, where my advisor was <a href="http://networks.cs.northwestern.edu/website/index-a.html">Prof. Aleksandar Kuzmanovic</a>. Before that, I received my B.Eng. in Computer Science from Beijing University of Posts and Telecommunications in 2019. 
 
-I am broadly interested in computer networks and systems. My current research focuses on enhancing the <a href="publication/?filtertopic=.pubtopic-0">security, privacy</a>, and <a href="publication/?filtertopic=.pubtopic-1">reliability</a> of Internet infrastructure and services. My research has received the Best Student Paper Award from EuroSys. 
+I am broadly interested in computer systems and networks. My current research focuses on (i) security and privacy of Internet services and (ii) performance and reliability of cloud infrastructure. My research has received the Best Student Paper Award from ACM EuroSys. 
+
+<p style="color:red">I will be joining the <a style="color:red;text-decoration:underline" href="https://sds.cuhk.edu.cn/en">School of Data Science</a> at <a style="color:red;text-decoration:underline" href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong (CUHK), Shenzhen</a> as a tenure-track Assistant Professor starting in Summer 2025. I am actively seeking self-motivated students to work with. <a style="color:red;text-decoration:underline" href="https://sds.cuhk.edu.cn/en/phd-programmes-CSE/applications">MPhil/PhD students</a> can begin as early as Fall 2025. If you are interested, please feel free to drop me an email. </p>
+
+
+
+<!-- 
+<a style="color:red;text-decoration:underline" href="">read this for more details</a>.
+color:#ff5733
+focuses on enhancing the <a href="publication/?filtertopic=.pubtopic-0">security, privacy</a>, and <a href="publication/?filtertopic=.pubtopic-1">reliability</a> of Internet infrastructure and services. My research has received the Best Student Paper Award from ACM EuroSys. 
+-->
 
 <!-- <font color="d62728"><b><i>
 I am on the academic job market for 2024 and am keen to connect with any potential opportunities (either postdoc or faculty). <a href="files/Yunming-Research-Statement.pdf">[Research Statement]</a>

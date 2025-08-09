@@ -7,11 +7,11 @@ authors:
 - Archit Bhatnagar
 - Sylvia Ratnasamy
 - Ang Chen
-date: "2025-04-23T00:00:00Z"
-# doi: "10.1145/3627703.3629577"
+date: "2025-08-08T00:00:00Z"
+doi: "10.1145/3735358.3735359"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-04-23T00:00:00Z"
+publishDate: "2025-08-08T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -25,9 +25,9 @@ publication_types: ["1"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: To appear in *APNet'25* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: To appear in *APNet'25*
-# note: <b style='color:red;'>Best Student Paper Award!</b>
+publication: In *APNet'25* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
+publication_short: In *APNet'25*
+note: <b style='color:red;'>Best Paper Award!</b>
 
 abstract: "Remote Direct Memory Access (RDMA) is emerging as a critical utility for large-scale datacenters, delivering significant performance improvements over the traditional TCP networking stack. Recent studies indicate that numerous applications can benefit from RDMA integration, and RDMA hardware resources are being shared among these diversifying applications. However, today’s RDMA frameworks mostly view their software and hardware stacks as two independent subsystems, making it difficult for developers to align the performance objectives of RDMA applications with the limited resources in RDMA hardware. 
 <br><br>
@@ -40,7 +40,7 @@ featured: false
 links:
 # - name: ACM
 #   url: https://doi.org/10.1145/3366423.3380194
-# url_pdf: publication/snatch/snatch-eurosys24-xiao.pdf
+url_pdf: publication/25apnet-rdma/25apnet-rdma.pdf
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'

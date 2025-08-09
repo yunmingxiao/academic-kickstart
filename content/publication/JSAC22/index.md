@@ -27,8 +27,8 @@ publication_types: ["2"]
 publication_topics: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE Journal on Selected Areas in Communications* 
-publication_short: In *JSAC*
+publication: In *IEEE Journal on Selected Areas in Communications (JSAC)* 
+publication_short: In *IEEE Journal on Selected Areas in Communications (JSAC)*
 
 abstract: The machine learning performance usually could be improved by training with massive data. However, requesters can only select a subset of devices with limited training data to execute federated learning (FL) tasks as a result of their limited budgets in today’s IoT scenario. To resolve this pressing issue, we devise a blockchain-enhanced FL market (BFL) to (i) make data in computationally bounded devices available for training with social Internet of things, (ii) maximize the amount of training data with given budgets for an FL task, and (iii) decentralize the FL market with blockchain. To achieve these goals, we firstly propose a trust-enhanced collaborative learning strategy (TCL) and a quality-oriented task allocation algorithm (QTA), where TCL enables training data sharing among trusted devices with social Internet of things, and QTA allocates suitable devices to execute FL tasks while maximizing the training quality with fixed budgets. Then, we devise an encrypted model training scheme (EMT) based on a simple but countervailable differential privacy methodology to prevent attacks from malicious devices. In addition, we also propose a contribution-driven delegated proof of stake (DPoS) consensus mechanism to guarantee the fairness of reward distribution in the block generation process. Finally, extensive evaluations are conducted to verify the proposed BFL could improve the total utility of requesters and average accuracy of FL models significantly.
 

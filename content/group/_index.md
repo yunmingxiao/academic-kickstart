@@ -36,7 +36,7 @@ For **CUHK-SZ students**, you are very welcome to email me to arrange an in-pers
   - *B.S.* Xidian University, *M.S.* Fudan University
 
 - **Cheng Li** – 2025.9 - *Present*
-  - *B.S.* BUAA
+  - *B.S.* Beihang University
 
 
 ### MPhil/MSc Students

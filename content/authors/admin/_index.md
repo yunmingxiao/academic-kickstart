@@ -109,7 +109,7 @@ user_groups:
 - Researchers
 - Visitors
 
-lastdate: August 2025
+lastdate: September 2025
 
 ---
 

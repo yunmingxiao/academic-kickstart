@@ -24,8 +24,8 @@ publication_types: ["1"]
 publication_topics: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: To appear in *EMNLP* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: To appear in *EMNLP*
+publication: To appear in *EMNLP (Oral)* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
+publication_short: To appear in *EMNLP (Oral)*
 
 abstract: "Relational databases are central to modern data management, yet most data exists in unstructured forms like text documents. To bridge this gap, we leverage large language models (LLMs) to automatically synthesize a relational database by generating its schema and populating its tables from raw text. We introduce SQUiD, a novel neurosymbolic framework that decomposes this task into four stages, each with specialized techniques. Our experiments show that SQUiD consistently outperforms baselines across diverse datasets. "
 

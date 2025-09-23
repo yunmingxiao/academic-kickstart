@@ -31,6 +31,12 @@
   url = "teach/" #cv
   weight = 50
 
+
+[[main]]
+  name = "Service"
+  url = "service/" #cv
+  weight = 60
+
   
 #[[main]]
 #  name = "Group"

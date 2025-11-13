@@ -109,7 +109,7 @@ user_groups:
 - Researchers
 - Visitors
 
-lastdate: September 2025
+lastdate: November 2025
 
 ---
 
@@ -117,7 +117,7 @@ Hi there! I am an Assistant Professor at the <a href="https://sds.cuhk.edu.cn/en
 
 I am broadly interested in computer systems, networks, and security. My current research focuses on (i) security and privacy of Internet services and (ii) performance and reliability of cloud infrastructure. My work has received the Best Paper Award from APNet and the Best Student Paper Award from ACM EuroSys. 
 
-I am always looking for self-motivated students to work with. <a href="group/">Read more here</a>.
+<strong>I am always looking for self-motivated students to work with. <a href="group/">Read more here</a>.</strong>
 
 <!-- <p style="color:red">I will be joining the <a style="color:red;text-decoration:underline" href="https://sds.cuhk.edu.cn/en">School of Data Science</a> at <a style="color:red;text-decoration:underline" href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong (CUHK), Shenzhen</a> as a tenure-track Assistant Professor starting in Summer 2025. I am actively seeking self-motivated students to work with. <a style="color:red;text-decoration:underline" href="https://sds.cuhk.edu.cn/en/phd-programmes-CSE/applications">MPhil/PhD students</a> can begin as early as Fall 2025. If you are interested, please feel free to drop me an email. </p> -->
 

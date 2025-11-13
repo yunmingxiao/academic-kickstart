@@ -51,6 +51,6 @@ For **CUHK-SZ students**, you are very welcome to email me to arrange an in-pers
 
 - **Baocheng Geng** – Undergrad @ CUHK-Shenzhen 
 
-- **Baowen Chen** – Undergrad @ Central University of Finance and Economics
+- **Yizhuo Li** – Undergrad @ CUHK-Shenzhen
 
 <!-- TBA -->

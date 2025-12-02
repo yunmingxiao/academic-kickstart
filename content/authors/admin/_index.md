@@ -23,7 +23,7 @@ bio: I am broadly interested in computer systems, networks, and security. My cur
 
 news:
 - 08/2025 <a href="publication/25apnet-rdma">SwiftRDMA</a> has won the <b>Best Paper Award</b> of <a href="https://conferences.sigcomm.org/events/apnet2025/index.php">APNet'25</a>!
-- 08/2025 I will serve on the TPC of CCS'26, IMC'26, and <a href="https://petsymposium.org/cfp26.php">PETS/PoPETs'26</a>. Submissions are welcomed!
+- 08/2025 I will serve on the TPC of <a href="https://www.sigsac.org/ccs/CCS2026/">CCS'26</a>, <a href="https://conferences.sigcomm.org/imc/2026/">IMC'26</a>, and <a href="https://petsymposium.org/cfp26.php">PETS/PoPETs'26</a>, and ERC for <a href="https://mlsys.org/Conferences/2026">MLSys'26</a>. Submissions are welcomed!
 - 07/2025 I have started my new role as an Assistant Professor at <a href="https://www.cuhk.edu.cn/en">CUHK-Shenzhen</a>! 
 - 06/2025 <a href="publication/25tocs">Extension of Snatch</a> is accepted to <a href="https://dl.acm.org/journal/tocs">ACM TOCS</a>! 
 - 03/2025 I will serve on the TPC of <a href="https://sp2026.ieee-security.org/index.html">IEEE S&P'26</a> and <a href="https://apsys2025.github.io/index.html">APSys'25</a>, and ERC for <a href="https://www.asplos-conference.org/asplos2026/cfp/">ASPLOS'26</a>. Submissions are welcomed!
@@ -109,7 +109,7 @@ user_groups:
 - Researchers
 - Visitors
 
-lastdate: November 2025
+lastdate: December 2025
 
 ---
 

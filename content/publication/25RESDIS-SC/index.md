@@ -26,8 +26,8 @@ publication_types: ["1"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: To appear in *RESDIS@SC* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: To appear in *RESDIS@SC*
+publication: In *RESDIS@SC* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
+publication_short: In *RESDIS@SC*
 
 abstract: "AI training and inference impose sustained, fine-grained I/O that stresses host-mediated, TCP-based storage paths. We revisit POSIX-compatible object storage for GPU-centric pipelines and present ROS2, an RDMA-first design that offloads the DAOS client to an NVIDIA BlueField-3 SmartNIC while leaving the server-side DAOS I/O engine unchanged. ROS2 splits a lightweight gRPC control plane from a high-throughput data plane (UCX/libfabric over RDMA or TCP), removing host mediation from the data path. Using FIO/DFS across local and remote settings, we show that on server-grade CPUs RDMA consistently outperforms TCP for large sequential and small random I/O. When the client is offloaded to BlueField-3, RDMA performance matches the host; TCP on the SmartNIC lags, underscoring RDMA’s advantage for offloaded deployments. We conclude that an RDMA-first, SmartNIC-offloaded object store is a practical foundation for LLM data delivery; optional GPUDirect placement is left for future work. "
 

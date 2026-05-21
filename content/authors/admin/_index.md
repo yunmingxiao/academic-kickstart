@@ -19,9 +19,12 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am broadly interested in computer systems, networks, and security. My current research focuses on (i) security and privacy of Internet services and (ii) performance and reliability of cloud infrastructure. My work has received the Best Paper Award from APNet and Best Student Paper Award from ACM EuroSys.
+bio: I am broadly interested in computer systems, networks, and security. My current research focuses on (i) security and privacy of Internet & AI services and (ii) performance and reliability of cloud \& AI infrastructure. My work has received the Best Paper Award from APNet and Best Student Paper Award from ACM EuroSys.
 
 news:
+- 05/2026 <a href="publication/26sigcomm-cubetrace">CubeTrace</a>, <a href="publication/26sigcomm-xfir">XFir</a>, and <a href="publication/26sigcomm-horizon">Horizon</a> are accepted by <a href="https://conferences.sigcomm.org/sigcomm/2026/">ACM SIGCOMM'26</a>!
+- 12/2025 I will serve on the TPC of <a href="https://conferences.sigcomm.org/sigcomm/2026/">SIGCOMM'26</a>, <a href="https://2027.eurosys.org/">EuroSys'27</a>, and <a href="https://sp2027.ieee-security.org/">IEEE S&P'27</a>, and as Publication Chair of <a href="https://conferences.sigcomm.org/events/apnet2026/index.php">APNet'26</a>. Submissions are welcomed!
+- 12/2025 <a href="publication/26nsdi-ddos">Canopy</a>, <a href="publication/26nsdi-obsidian">Obsidian</a>, and <a href="publication/26nsdi-peering">Janus</a> are accepted by <a href="https://www.usenix.org/conference/nsdi26">USENIX NSDI'26</a>!
 - 08/2025 <a href="publication/25apnet-rdma">SwiftRDMA</a> has won the <b>Best Paper Award</b> of <a href="https://conferences.sigcomm.org/events/apnet2025/index.php">APNet'25</a>!
 - 08/2025 I will serve on the TPC of <a href="https://www.sigsac.org/ccs/CCS2026/">CCS'26</a>, <a href="https://conferences.sigcomm.org/imc/2026/">IMC'26</a>, and <a href="https://petsymposium.org/cfp26.php">PETS/PoPETs'26</a>, and ERC for <a href="https://mlsys.org/Conferences/2026">MLSys'26</a>. Submissions are welcomed!
 - 07/2025 I have started my new role as an Assistant Professor at <a href="https://www.cuhk.edu.cn/en">CUHK-Shenzhen</a>! 
@@ -109,13 +112,13 @@ user_groups:
 - Researchers
 - Visitors
 
-lastdate: December 2025
+lastdate: May 2026
 
 ---
 
 Hi there! I am an Assistant Professor at the <a href="https://sds.cuhk.edu.cn/en">School of Data Science</a> at <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong (CUHK), Shenzhen</a>. Before joining CUHK Shenzhen, I was a Research Fellow at the University of Michigan working with <a href="https://web.eecs.umich.edu/~chenang/">Prof. Ang Chen</a>. I received my Ph.D. in Computer Science from Northwestern University in 2024, advised by <a href="http://networks.cs.northwestern.edu/website/index-a.html">Prof. Aleksandar Kuzmanovic</a>, and received my B.Eng. in Computer Science from Beijing University of Posts and Telecommunications in 2019. 
 
-I am broadly interested in computer systems, networks, and security. My current research focuses on (i) security and privacy of Internet services and (ii) performance and reliability of cloud infrastructure. My work has received the Best Paper Award from APNet and the Best Student Paper Award from ACM EuroSys. 
+I am broadly interested in computer systems, networks, and security. My current research focuses on (i) security and privacy of Internet & AI services and (ii) performance and reliability of cloud & AI infrastructure. My work has received the Best Paper Award from APNet and the Best Student Paper Award from ACM EuroSys. 
 
 <strong>I am always looking for self-motivated students to work with. <a href="group/">Read more here</a>.</strong>
 

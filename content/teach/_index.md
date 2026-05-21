@@ -14,6 +14,10 @@ weight: 10
 - CSC1001 -- Introduction to Computer Science: Programming Methodology
   - <a href="../courses/csc1001-25fall/syllabus.html">2025 Fall</a>
 - CSC3150 -- Operating System
+  - <a href="../courses/csc3150-26spring/syllabus.html">2026 Spring</a>
+- DDA4080 -- Capstone
+  - 2026 Spring
+- DDA2081/2082/2083 -- Independent Study
   - 2026 Spring
 
 <br>

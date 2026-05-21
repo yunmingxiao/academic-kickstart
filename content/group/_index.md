@@ -41,16 +41,25 @@ For **CUHK-SZ students**, you are very welcome to email me to arrange an in-pers
 
 ### MPhil/MSc Students
 
-- TBA
+- **Xin Tong** - 2026.9 - *Present*
+  - *B.S.* Xi'an Jiaotong University
 
 
 ### RA/Intern/Visiting Students
 
 
-- **Peichun Hua** – Undergrad @ CUHK-Shenzhen 
+- **<a href="https://peichun.xyz/">Peichun Hua</a>** – Undergrad @ CUHK-Shenzhen 
 
 - **Baocheng Geng** – Undergrad @ CUHK-Shenzhen 
 
 - **Yizhuo Li** – Undergrad @ CUHK-Shenzhen
 
+- **Danyang Chen** – Undergrad @ CUHK-Shenzhen
+
+- **Teng Mei** - Master student @ University of Tokyo
+
+
+### Alumni
+
+- TBA
 <!-- TBA -->

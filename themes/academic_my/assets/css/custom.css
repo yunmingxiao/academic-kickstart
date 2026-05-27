@@ -5,9 +5,9 @@
 }
 
 .pub-venue-badge {
-  width: 108px;              /* fixed width */
-  min-width: 108px;
-  max-width: 108px;
+  width: 120px;              /* fixed width */
+  min-width: 120px;
+  max-width: 120px;
 
   text-align: center;
 

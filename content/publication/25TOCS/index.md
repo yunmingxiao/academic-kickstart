@@ -1,7 +1,7 @@
 ---
 title: "Enabling Anonymous Online Streaming Analytics at the Network Edge"
 authors:
-- Yunming Xiao
+- Yunming Xiao#
 - Yanqi Gu
 - Yibo Zhao
 - Sen Lin

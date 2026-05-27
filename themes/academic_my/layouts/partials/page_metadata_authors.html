@@ -11,6 +11,8 @@
         <b>{{$name}}</b>
       {{- else if eq $value "Yunming Xiao*" -}}
         <b>{{$name}}</b>
+      {{- else if eq $value "Yunming Xiao#" -}}
+        <b>{{ replace $name "#" "" | safeHTML }}<sup>#</sup></b>
       {{- else -}}
         {{$name}}
       {{- end -}}

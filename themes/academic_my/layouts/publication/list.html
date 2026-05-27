@@ -38,7 +38,7 @@
 
   {{ $before2025 := where $non_preprints ".Date.Year" "lt" 2025 }}
   {{ if gt (len $before2025) 0 }}
-    <h2>Before 2025</h2>
+    <h2>2024 And Before</h2>
     {{ range $before2025 }}
       {{ partial "li_citation" . }}
     {{ end }}

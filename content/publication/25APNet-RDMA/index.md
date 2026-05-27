@@ -25,7 +25,7 @@ publication_types: ["1"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In Proceedings of *the 9th Asia-Pacific Workshop on Networking*. 2025.
+publication: In Proceedings of *the 9th Asia-Pacific Workshop on Networking*. 2025. 
 publication_short: APNet'25
 pub_badge_normal: true
 note: <b style='color:red;'>Best Paper Award!</b>

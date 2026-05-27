@@ -32,7 +32,7 @@ publication_types: ["1"]
 publication_topics: ["0", "1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In Proceedings of *23rd USENIX Symposium on Networked Systems Design and Implementation*. 
+publication: In Proceedings of *23rd USENIX Symposium on Networked Systems Design and Implementation*. 2026. 
 publication_short: NSDI'26
 # note: <b style='color:red;'>Best Paper Award!</b>
 

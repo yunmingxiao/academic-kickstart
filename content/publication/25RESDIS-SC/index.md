@@ -26,7 +26,7 @@ publication_types: ["1"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In Proceedings of the SC'25 Workshops of International Workshop on RESource DISaggregation in High Performance Computing.
+publication: In Proceedings of the SC'25 Workshops of International Workshop on RESource DISaggregation in High Performance Computing. 2025. 
 publication_short: RESDIS@SC
 pub_badge_normal: true
 

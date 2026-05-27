@@ -24,7 +24,7 @@ publication_types: ["2"]
 publication_topics: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *EURO Journal on Computational Optimization*, 10, 100047.
+publication: In *EURO Journal on Computational Optimization*, 10, 100047. 2022. 
 publication_short: EJCO
 pub_badge_normal: true
 

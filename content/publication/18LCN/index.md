@@ -24,7 +24,7 @@ publication_types: ["1"]
 publication_topics: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE 43rd Conference on Local Computer Networks*.
+publication: In *IEEE 43rd Conference on Local Computer Networks*. 2018.
 publication_short: LCN'18
 pub_badge_normal: true
 

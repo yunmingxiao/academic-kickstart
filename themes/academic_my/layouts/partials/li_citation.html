@@ -21,14 +21,7 @@
       {{ $pub_short := .Params.publication_short | default "" }}
       {{ $pub_full := .Params.publication | default "" }}
 
-      {{ $is_preprint := or
-          (in $pub_short "ArXiv")
-          (in $pub_short "arXiv")
-          (in $pub_full "ArXiv")
-          (in $pub_full "arXiv")
-      }}
-
-      {{ if and .Params.publication (not $is_preprint) }}
+      {{ if .Params.publication }}
         <span class="pub-full-venue">
           {{ .Params.publication | markdownify }}
         </span>

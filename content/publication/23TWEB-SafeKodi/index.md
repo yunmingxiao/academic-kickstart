@@ -23,7 +23,7 @@ publication_types: ["2"]
 publication_topics: ["0"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *ACM Transactions on the Web*, 17 (1), 1-36. #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
+publication: In *ACM Transactions on the Web*, 17 (1), 1-36. 2023. 
 publication_short: TWEB
 
 abstract: "Free and open source media centers are experiencing a boom in popularity for the convenience they offer users seeking to remotely consume digital content. Kodi is today’s most popular home media center, with millions of users worldwide. Kodi’s popularity derives from its ability to centralize the sheer amount of media content available on the Web, both free and copyrighted. Researchers have been hinting at potential security concerns around Kodi, due to add-ons injecting unwanted content as well as user settings linked with security holes. Motivated by these observations, this paper conducts the first comprehensive analysis of the Kodi ecosystem: 15,000 Kodi users from 104 countries, 11,000 unique add-ons, and data collected over 9 months.

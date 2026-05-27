@@ -23,7 +23,7 @@ publication_types: ["1"]
 publication_topics: ["0"]
 
 # Publication name and optional abbreviated publication name.
-publication: In Proceedings of *the Nineteenth European Conference on Computer Systems*. #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
+publication: In Proceedings of *the Nineteenth European Conference on Computer Systems*. 2024. 
 publication_short: EuroSys'24
 note: <b style='color:red;'>Best Student Paper Award!</b>
 

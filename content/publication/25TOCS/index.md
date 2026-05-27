@@ -24,7 +24,7 @@ publication_types: ["2"]
 publication_topics: ["0"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *ACM Transactions on Computer Systems*, 43 (4), 1-39. #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
+publication: In *ACM Transactions on Computer Systems*, 43 (4), 1-39. 2025. 
 publication_short: TOCS
 # note: <b style='color:red;'>Best Student Paper Award!</b>
 

@@ -25,7 +25,7 @@ publication_types: ["3"]
 publication_topics: ["0"]
 
 # Publication name and optional abbreviated publication name.
-publication: In arXiv preprint arXiv:2507.20806. #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
+publication: ArXiv:2507.20806. 
 publication_short: ArXiv
 pub_badge_normal: true
 

@@ -39,8 +39,9 @@
         {{ range .Pages.ByDate.Reverse }}
           {{ $pub_short := .Params.publication_short | default "" }}
           {{ $pub_full := .Params.publication | default "" }}
+          {{ $is_preprint := in .Params.publication_types "3" }}
 
-          {{ if or (in $pub_short "ArXiv") (in $pub_short "arXiv") (in $pub_full "ArXiv") (in $pub_full "arXiv") }}
+          {{ if $is_preprint }}
             {{ if .Params.publication_topics }}
               {{ $topic_classes := "" }}
 
@@ -79,7 +80,7 @@
           {{ range $.Pages.ByDate.Reverse }}
             {{ $pub_short := .Params.publication_short | default "" }}
             {{ $pub_full := .Params.publication | default "" }}
-            {{ $is_preprint := or (in $pub_short "ArXiv") (in $pub_short "arXiv") (in $pub_full "ArXiv") (in $pub_full "arXiv") }}
+            {{ $is_preprint := in .Params.publication_types "3" }}
 
             {{ if and (eq (.Date.Format "2006") $year) (not $is_preprint) }}
               {{ if .Params.publication_topics }}
@@ -111,8 +112,9 @@
           {{ $year := .Date.Format "2006" }}
           {{ $pub_short := .Params.publication_short | default "" }}
           {{ $pub_full := .Params.publication | default "" }}
+          {{ $is_preprint := in .Params.publication_types "3" }}
 
-          {{ if and (lt $year "2025") (not (or (in $pub_short "ArXiv") (in $pub_short "arXiv") (in $pub_full "ArXiv") (in $pub_full "arXiv"))) }}
+          {{ if and (lt $year "2025") (not $is_preprint) }}
             {{ if .Params.publication_topics }}
               {{ $topic_classes := "" }}
 

@@ -23,7 +23,7 @@ publication_types: ["1"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: To appear in Proceedings of *the 10th Asia-Pacific Workshop on Networking*. 
+publication: To appear in Proceedings of *the 10th Asia-Pacific Workshop on Networking*. 2026. 
 publication_short: APNet'26
 pub_badge_normal: true
 # note: <b style='color:red;'>Best Paper Award!</b>

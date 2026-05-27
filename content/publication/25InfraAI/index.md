@@ -20,7 +20,7 @@ publishDate: "2025-08-09T10:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication topic.
 # Legend: 0 = Security and Privacy; 1 = System Reliability; 2 = MLSys; 
@@ -28,7 +28,7 @@ publication_types: ["3"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *ACM SIGOPS Operating Systems Review (OSR)*, 59 (1), 1-8.
+publication: In *ACM SIGOPS Operating Systems Review (OSR)*, 59 (1), 1-8. 2025. 
 publication_short: OSR
 pub_badge_normal: true
 

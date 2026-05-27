@@ -30,7 +30,7 @@ publication_types: ["1"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Workshop on Hot Topics in System Infrastructure*. #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
+publication: In *the 2nd Workshop on Hot Topics in System Infrastructure*. 2024. 
 publication_short: HotInfra'24
 pub_badge_normal: true
 

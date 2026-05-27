@@ -10,7 +10,7 @@ authors:
 - Yibo Huang
 - Martin Casado
 - Ang Chen
-date: "2025-08-09T10:00:00Z"
+date: "2025-08-07T10:00:00Z"
 doi: "10.1145/3759441.3759443"
 
 # Schedule page publish date (NOT publication's date).
@@ -28,8 +28,9 @@ publication_types: ["3"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *ACM SIGOPS Operating Systems Review (OSR)*
-publication_short: In *ACM SIGOPS Operating Systems Review (OSR)*
+publication: In *ACM SIGOPS Operating Systems Review (OSR)*, 59 (1), 1-8.
+publication_short: OSR
+pub_badge_normal: true
 
 abstract: "Cloud infrastructure is the cornerstone of the modern IT industry. However, managing this infrastructure effectively requires considerable manual effort from the DevOps engineering team. We make a case for developing AI agents powered by large language models (LLMs) to automate cloud infrastructure management tasks. In a preliminary study, we investigate the potential for AI agents to use different cloud/user interfaces such as software development kits (SDK), command line interfaces (CLI), Infrastructure-as-Code (IaC) platforms, and web portals. We report takeaways on their effectiveness on different management tasks, and identify research challenges and potential solutions. "
 

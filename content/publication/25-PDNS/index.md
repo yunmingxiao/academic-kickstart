@@ -25,8 +25,9 @@ publication_types: ["3"]
 publication_topics: ["0"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *ArXiv* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: In *ArXiv*
+publication: In arXiv preprint arXiv:2507.20806. #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
+publication_short: ArXiv
+pub_badge_normal: true
 
 abstract: "There has been a growing interest in Internet user privacy, demonstrated by the popularity of privacy-preserving products such as Telegram and Brave, and the widespread adoption of HTTPS. The Domain Name System (DNS) is a key component of Internet-based communication and its privacy has been neglected for years. Recently, DNS over HTTPS (DoH) has improved the situation by fixing the issue of in-path middleboxes. Further progress has been made with proxy-based solutions such as Oblivious DoH (ODoH), which separate a user's identity from their DNS queries. However, these solutions rely on non-collusion assumptions between DNS resolvers and proxies -- an assumption difficult to guarantee in practice. To address this, we explore integrating single-server Private Information Retrieval (PIR) into DNS to enable encrypted query processing without relying on trust assumptions. However, applying PIR to DNS is challenging due to its hierarchical nature -- particularly, interactions with recursive resolvers can still leak information. Navigating performance and privacy trade-offs, we propose PDNS, a DNS extension leveraging single-server PIR to strengthen privacy guarantees. We have implemented a prototype of PDNS and compared its performance against state-of-the-art solutions via trace-driven experiments. The results show that PDNS achieves acceptable performance (2x faster than DoH over Tor with similar privacy guarantees) and strong privacy guarantees today, mainly at the cost of its scalability, which specialized hardware for PIR can address in the near future. "
 

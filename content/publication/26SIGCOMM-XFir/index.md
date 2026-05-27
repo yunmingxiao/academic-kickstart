@@ -35,8 +35,8 @@ publication_types: ["1"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: To appear in *SIGCOMM'26* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: To appear in *SIGCOMM'26*
+publication: To appear in Proceedings of *the ACM SIGCOMM 2026 Conference*. 
+publication_short: SIGCOMM'26
 # note: <b style='color:red;'>Best Paper Award!</b>
 
 abstract: "In today's cloud networks, host servers widely deploy Data Processing Units (DPUs) as network accelerators under the ``Sep-Path'' paradigm. However, as server capabilities scale with increasing CPU cores and network bandwidth, the software slow path (executed on a DPU's CPU) has become a critical bottleneck for workloads with high new-flow rates. Meanwhile, new-flow setup logic on host servers must continuously evolve to meet diverse and changing customer demands, making flexibility a key requirement alongside performance. To address this gap, we present XFir, the first hardware-accelerated new-flow setup system for cloud host servers that delivers high CPS throughput while preserving sufficient flexibility. XFir leverages a next-generation DPU equipped with a Cloud Network co-Processor (CNP) to execute the host server's new-flow setup logic. XFir redesigns the host-server flow-setup datapath and table layout, optimizes LPM lookups, and introduces CPU–CNP collaboration mechanisms to further improve performance and reliability. Our evaluation shows that XFir achieves over 776K new-flow CPS on a single host server with 11.7μs slow-path latency. Compared to prior work (Fornax), XFir achieves 4.8×CPS and reduces latency by 69.2%. Moreover, XFir is cost-effective to deploy in production, requiring only a single DPU per host. Overall, XFir improves new-flow throughput while maintaining development flexibility at low financial cost. "

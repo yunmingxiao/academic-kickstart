@@ -18,11 +18,11 @@ publication_types: ["2"]
 # Publication topic.
 # Legend: 0 = Security and Privacy; 1 = System Reliability; 2 = MLSys; 
 # 3 = Federated Learning; 4 = Blockchain; 5 = Undergraduate Projects;  6 = Uncategorized; 
-publication_topics: ["3"]
+publication_topics: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *PLOS Computational Biology*
-publication_short: In *PLOS Computational Biology*
+publication: In *PLOS Computational Biology*, 15(9), e1007212.
+publication_short: PLoS Comput. Biol.
 
 abstract: Cooperation is ubiquitous across all levels of biological systems ranging from microbial communities to human societies. It, however, seemingly contradicts the evolutionary theory, since cooperators are exploited by free-riders and thus are disfavored by natural selection. Many studies based on evolutionary game theory have tried to solve the puzzle and figure out the reason why cooperation exists and how it emerges. Network reciprocity is one of the mechanisms to promote cooperation, where nodes refer to individuals and links refer to social relationships. The spatial arrangement of mutant individuals, which refers to the clustering of mutants, plays a key role in network reciprocity. Besides, many other mechanisms supporting cooperation suggest that the clustering of mutants plays an important role in the expansion of mutants. However, the clustering of mutants and the game dynamics are typically coupled. It is still unclear how the clustering of mutants alone alters the evolutionary dynamics. To this end, we employ a minimal model with frequency independent fitness on a circle. It disentangles the clustering of mutants from game dynamics. The distance between two mutants on the circle is adopted as a natural indicator for the clustering of mutants or assortment. We find that the assortment is an amplifier of the selection for the connected mutants compared with the separated ones. Nevertheless, as mutants are separated, the more dispersed mutants are, the greater the chance of invasion is. It gives rise to the non-monotonic effect of clustering, which is counterintuitive. On the other hand, we find that less assortative mutants speed up fixation. Our model shows that the clustering of mutants plays a non-trivial role in fixation, which has emerged even if the game interaction is absent.
 

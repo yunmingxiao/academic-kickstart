@@ -32,8 +32,8 @@ publication_types: ["1"]
 publication_topics: ["0", "1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *NSDI'26* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: In *NSDI'26*
+publication: In Proceedings of *23rd USENIX Symposium on Networked Systems Design and Implementation*. 
+publication_short: NSDI'26
 # note: <b style='color:red;'>Best Paper Award!</b>
 
 abstract: "Defending against Distributed Denial-of-Service (DDoS) attacks is a critical priority for cloud providers, who must manage ever-growing volumes of both benign and malicious traffic. While state-of-the-art DDoS detection systems leverage programmable devices to process traffic at hundreds of Gbps to Tbps on a single machine, large-scale cloud providers often handle traffic at scales approaching 100 Tbps. This massive volume -- two orders of magnitude higher than the traffic handled by existing systems -- motivates us to implement distributed processing across multiple servers, where new challenges are present. Specifically, naive load-balancing strategies lead to imbalanced traffic distribution and severe performance bottlenecks, while function offloading to programmable devices must balance flexibility and adaptability. In this paper, we present Canopy, a scalable DDoS detection system designed to overcome these challenges. Canopy features a dynamic load-balancing mechanism that adapts to fluctuating traffic patterns, ensuring balanced distribution across detection servers despite the mix of mice and elephant flows. Additionally, it employs a traffic compression technique at the programmable switch to significantly reduce per-server workload. These innovations enable Canopy to scale to over 100,Tbps in real-world deployments. Successfully deployed in production, Canopy has demonstrated its effectiveness in mitigating large-scale DDoS attacks. "

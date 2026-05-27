@@ -6,7 +6,7 @@ authors:
 - Yibo Zhao
 - Sen Lin
 - Aleksandar Kuzmanovic
-date: "2025-06-16T10:00:00Z"
+date: "2025-12-30T10:00:00Z"
 doi: "10.1145/3746130"
 
 # Schedule page publish date (NOT publication's date).
@@ -24,8 +24,8 @@ publication_types: ["2"]
 publication_topics: ["0"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *ACM Transactions on Computer Systems (TOCS)* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: In *ACM Transactions on Computer Systems (TOCS)*
+publication: In *ACM Transactions on Computer Systems*, 43 (4), 1-39. #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
+publication_short: TOCS
 # note: <b style='color:red;'>Best Student Paper Award!</b>
 
 abstract: "In recent years, content hyper-giants have increasingly deployed server infrastructure and services close to end-users within \"eyeball\" networks. Still, online streaming analytics has largely remained unaffected by this trend. This is despite the fact that most of the “big data” is received in real-time and is most valuable at the time of arrival. The inability to process data at the network edge is caused by a common setting where user profiles, necessary for analytics, are stored deep in the data center back-ends. This setting also carries privacy concerns as such user profiles are individually identifiable, yet the users are almost blind to what data is associated with their identities and how the data is analyzed. In this paper, we revise this arrangement, and plant encrypted semantic cookies at the user end. By redesigning the cookie content without altering existing protocols, semantic cookies enable the capture and pre-processing of user data at edge ISPs or CDNs while preserving user anonymity. Additionally, lightweight cryptographic algorithms like partially homomorphic encryption can protect web providers' proprietary data from CDNs. We present Snatch, a QUIC-based streaming analytics prototype that achieves up to 200x faster user analytics, with common-case improvements of 10-30x. "

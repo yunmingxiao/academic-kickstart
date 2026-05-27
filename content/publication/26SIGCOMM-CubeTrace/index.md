@@ -29,8 +29,8 @@ publication_types: ["1"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: To appear in *SIGCOMM'26* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: To appear in *SIGCOMM'26*
+publication: To appear in Proceedings of *the ACM SIGCOMM 2026 Conference*. 
+publication_short: SIGCOMM'26
 # note: <b style='color:red;'>Best Paper Award!</b>
 
 abstract: "Modern cloud gateways have evolved to include diverse network functions and heterogeneous hardware, such as programmable switches and FPGAs, to handle increasing workloads and minimize forwarding latency. However, existing network tracing tools are limited to device-level data collection, lacking the granularity required to ensure reliability in these complex architectures. For instance, they fail to pinpoint which function on which hardware component is responsible for packet losses or latency spikes. To bridge this gap, we present CubeTrace, a unified, function-level flow tracing system that enables microscopic tracing inside heterogeneous cloud gateways. CubeTrace standardizes tracing units as \"cubes\" across different hardware platforms, regardless of their varied underlying implementations, and operates at flow-level granularity instead of packet level for reliability reasons. This creates a new tracing abstraction that satisfies the complex tracing demands of heterogeneous cloud gateways while maintaining high efficiency. Moreover, flow-cube data can be decoded into packet-level representations and integrated with well-established distributed tracing frameworks, enabling the use of off-the-shelf analysis tools. Our evaluations demonstrate that CubeTrace introduces minimal overhead, consuming less than 1% of memory resources and adding less than 1% to forwarding latency. Having been deployed in a large-scale cloud gateway, CubeTrace has significantly improved problem localization, reducing resolution times from hours or even days to just minutes. "

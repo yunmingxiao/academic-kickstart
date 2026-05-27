@@ -30,8 +30,8 @@ publication_types: ["1"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: To appear in *SIGCOMM'26* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: To appear in *SIGCOMM'26*
+publication: To appear in Proceedings of *the ACM SIGCOMM 2026 Conference*. 
+publication_short: SIGCOMM'26
 # note: <b style='color:red;'>Best Paper Award!</b>
 
 abstract: "Live streaming services power mainstream real-time interactions on top of dedicated live streaming networks (LiveNets). Yet making LiveNets reliable at scale is challenging: failures arise on the user-facing delivery path and within streaming protocol and application logic, so operators need both continuous runtime monitoring to detect and localize incidents quickly and proactive preflight testing to exercise changes under representative environments and sustained playback behavior. Meeting these goals hinges on the right vantage point: the observability workflow must traverse the same network paths and delivery stacks as users while remaining controllable and non-intrusive. We present Horizon, which leverages near-user, provider-managed hyper-edge devices and orchestrates them into a shared fleet that supports both always-on monitoring and customizable, scenario-driven validation. Horizon has been deployed in production for over three years; in 2025, it identified 2,000+ major network incidents using 100,000+ hyper-edge agents. "

@@ -32,8 +32,8 @@ publication_types: ["1"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In ACM *SIGCOMM'24* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: In *SIGCOMM'24*
+publication: In Proceedings of *the ACM SIGCOMM 2024 Conference*. 
+publication_short: SIGCOMM'24
 
 abstract: "In today’s virtualized cloud, containers and virtual machines (VMs)
 are prevailing methods to deploy applications with different tenant

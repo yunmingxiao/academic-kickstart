@@ -11,7 +11,7 @@
     <p class="pub-abstract" itemprop="text">{{ .Params.abstract | markdownify }}</p>
     {{ end }}
 
-    {{ if and .Params.publication_topics (ne (index .Params.publication_topics 0) "0") }}
+    {{ if .Params.publication_topics }}
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
@@ -20,9 +20,10 @@
           <div class="col-12 col-md-9">
             {{ $pub_topics := partial "functions/get_pub_topics" $ }}
             {{ range $index, $pubtopic := .Params.publication_topics }}
-            <a href="{{ (site.GetPage "section" "publication").RelPermalink }}?filtertopic=.pubtopic-{{ . | urlize }}">
-              {{ index $pub_topics (int .) }}
-            </a>
+              {{ if gt $index 0 }}, {{ end }}
+              <a href="{{ (site.GetPage "section" "publication").RelPermalink }}?filtertopic=pubtopic-{{ . | urlize }}">
+                {{ index $pub_topics (int .) }}
+              </a>
             {{ end }}
           </div>
         </div>

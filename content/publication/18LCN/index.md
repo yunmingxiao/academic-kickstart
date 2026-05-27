@@ -21,11 +21,12 @@ publication_types: ["1"]
 # Publication topic.
 # Legend: 0 = Security and Privacy; 1 = System Reliability; 2 = MLSys; 
 # 3 = Federated Learning; 4 = Blockchain; 5 = Undergraduate Projects;  6 = Uncategorized; 
-publication_topics: ["3"]
+publication_topics: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE 43rd Conference on Local Computer Networks*
-publication_short: In *IEEE LCN'18*
+publication: In *IEEE 43rd Conference on Local Computer Networks*.
+publication_short: LCN'18
+pub_badge_normal: true
 
 abstract: Deep neural networks have been used for traffic classification, and promising results are obtained. However, most previous work confined to one specific classification task and restricted the classifiers potential performance and applications. As the traffic flows can be labeled from different perspectives, the performance of the classifier might be improved by exploring more meaningful latent features. For this purpose, we adopted a multi-output DNN model that simultaneously learns different traffic classification tasks. The common knowledge of traffic is exploited by the synergy among the tasks and boosts the individual performances of the tasks. Experiments show that this structure has the potential to meet new future demands and achieve the classification with advanced speeds and fair accuracies. Yet, due to the heavy training cost, the neural networks, though achieving good performance, are hard to implement in the real environment. We further show that few-shot learning could be a viable approach.
 

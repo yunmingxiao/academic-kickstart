@@ -25,8 +25,9 @@ publication_types: ["1"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *APNet'25* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: In *APNet'25*
+publication: In Proceedings of *the 9th Asia-Pacific Workshop on Networking*. 
+publication_short: APNet'25
+pub_badge_normal: true
 note: <b style='color:red;'>Best Paper Award!</b>
 
 abstract: "Remote Direct Memory Access (RDMA) is emerging as a critical utility for large-scale datacenters, delivering significant performance improvements over the traditional TCP networking stack. Recent studies indicate that numerous applications can benefit from RDMA integration, and RDMA hardware resources are being shared among these diversifying applications. However, today’s RDMA frameworks mostly view their software and hardware stacks as two independent subsystems, making it difficult for developers to align the performance objectives of RDMA applications with the limited resources in RDMA hardware. 

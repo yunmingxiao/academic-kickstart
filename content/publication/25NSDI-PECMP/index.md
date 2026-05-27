@@ -12,7 +12,7 @@ authors:
 - Aleksandar Kuzmanovic
 - Ang Chen
 - Congcong Miao
-date: "2025-04-28T00:00:00Z"
+date: "2025-12-31T00:00:00Z"
 # doi: "10.1145/3627703.3629577"
 
 # Schedule page publish date (NOT publication's date).
@@ -30,8 +30,8 @@ publication_types: ["1"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *NSDI'25* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: In *NSDI'25*
+publication: In Proceedings of *22nd USENIX Symposium on Networked Systems Design and Implementation*.  #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
+publication_short: NSDI'25
 # note: <b style='color:red;'>Best Student Paper Award!</b>
 
 abstract: "ECMP (equal-cost multi-path) has become a fundamental mechanism in data centers, which distributes flows along multiple equivalent paths based on their hash values. Randomized distribution optimizes for the aggregate case, spreading load across flows over time. However, there exists a class of important Precise Traffic Control (PTC) tasks that are at odds with ECMP randomness. For instance, if an end host perceives that its flows are traversing a problematic switch/link, it often needs to change their paths before a fix can be rolled out. With randomized hashing, existing solutions resort to modifying flow tuples; since hashing mechanisms are unknown and they vary across switches/vendors, it may take many trials before yielding a new path. Many other similar cases exist where precise and timely response is critical to the network. We propose programmable ECMP (P-ECMP), a programming model, compiler, and runtime that provides precise traffic control. P-ECMP leverages an oft-ignored feature, ECMP groups, which allows for a constrained set of capabilities that are nonetheless sufficiently expressive for our tasks. An operator supplies high-level descriptions of their topology and policies, and our compiler generates PTC configurations for each switch. End hosts can reconfigure specific flows to use different PTC policies precisely and quickly, addressing a range of important use cases. We have evaluated P-ECMP using simulation at scale, and deployed one use case to a real-world data center that serves live user traffic. "

@@ -14,86 +14,123 @@
         <p>* For Equal Contribution</p>
       </div>
 
-      {{/* Array of distinct years. */}}
-      {{ range .Pages.ByDate.Reverse }}
-        {{ $year := print (.Date.Format "2006") }}
-        {{ $.Scratch.SetInMap "years" $year $year }}
-      {{ end }}
-
       <div class="form-row mb-4">
         <div class="col-auto">
-          <input type="search" class="filter-search" placeholder="{{ i18n "search_placeholder" }}" autocapitalize="off"
-          autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
-        </div>
-        <div class="col-auto">
-          <select class="pub-filters pubtopic-select form-control form-control-sm" data-filter-group="pubtopic" id="pub-topic-filter">
-            <!-- <p>{{ site.Taxonomies.publication_topics }}</p> -->
-            <!-- {{ range $topic := site.Data.publication_topics.topics }}
-              <p>{{ $topic }}</p>
-            {{ end }} -->
-            <option value="*">{{ i18n "publication_topic" }}</option>
+          <select id="pub-topic-filter-simple" class="form-control form-control-sm">
+            <option value="*">All topics</option>
             {{ $pub_topics := partial "functions/get_pub_topics" $ }}
             {{ range $index, $taxonomy := site.Taxonomies.publication_topics }}
-            <option value=".pubtopic-{{ (int $index) }}">
-              {{ index $pub_topics (int $index) }}
-            </option>
-            {{ end }}
-          </select>
-        </div>
-        <div class="col-auto">
-          <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
-            <option value="*">{{ i18n "publication_type" }}</option>
-            {{ $pub_types := partial "functions/get_pub_types" $ }}
-            {{ range $index, $taxonomy := site.Taxonomies.publication_types }}
-            <option value=".pubtype-{{ (int $index) }}">
-              {{ index $pub_types (int $index) }}
-            </option>
-            {{ end }}
-          </select>
-        </div>
-        <div class="col-auto">
-          <select class="pub-filters form-control form-control-sm" data-filter-group="year">
-            <option value="*">{{ i18n "date" }}</option>
-            {{ $years_sorted := $.Scratch.GetSortedMapValues "years" }}
-            {{ if $years_sorted }}
-            {{ range $year := sort $years_sorted "" "desc" }}
-            <option value=".year-{{ $year }}">
-              {{ $year }}
-            </option>
-            {{ end }}
+              <option value="pubtopic-{{ int $index }}">
+                {{ index $pub_topics (int $index) }}
+              </option>
             {{ end }}
           </select>
         </div>
       </div>
 
-      <div id="container-publications">
-        {{ range .Pages.ByDate.Reverse }}
-        
-        {{ if .Params.publication_topics }}
-          {{ $.Scratch.Set "pubtopic" (index .Params.publication_topics 0) }}
-        {{ else }}
-          {{ $.Scratch.Set "pubtopic" 0 }}
-        {{ end }}
+      <div id="publications-grouped">
 
-        {{ if .Params.publication_types }}
-          {{ $.Scratch.Set "pubtype" (index .Params.publication_types 0) }}
-        {{ else }}
-          {{ $.Scratch.Set "pubtype" 0 }}
-        {{ end }}
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtopic-{{ $.Scratch.Get "pubtopic" }} pubtype-{{ $.Scratch.Get "pubtype" }} year-{{ .Date.Format "2006" }}">
-          {{ if eq $.Params.view 1 }}
-            {{ partial "li_list" . }}
-          {{ else if eq $.Params.view 3 }}
-            {{ partial "li_card" . }}
-          {{ else if eq $.Params.view 4 }}
-            {{ partial "li_citation" . }}
-          {{ else }}
-            {{ partial "li_compact" . }}
-          {{ end }}
+        <div class="pub-section-heading">
+          <span></span>
+          <h2>Preprints</h2>
+          <span></span>
         </div>
 
+        {{ range .Pages.ByDate.Reverse }}
+          {{ $pub_short := .Params.publication_short | default "" }}
+          {{ $pub_full := .Params.publication | default "" }}
+
+          {{ if or (in $pub_short "ArXiv") (in $pub_short "arXiv") (in $pub_full "ArXiv") (in $pub_full "arXiv") }}
+            {{ if .Params.publication_topics }}
+              {{ $topic_classes := "" }}
+
+              {{ if .Params.publication_topics }}
+                {{ range .Params.publication_topics }}
+                  {{ $topic_classes = printf "%s pubtopic-%s" $topic_classes . }}
+                {{ end }}
+              {{ else }}
+                {{ $topic_classes = " pubtopic-0" }}
+              {{ end }}
+
+              <div class="pub-entry{{ $topic_classes }}">
+                {{ partial "li_citation" . }}
+              </div>
+            {{ end }}
+          {{ end }}
         {{ end }}
+
+        {{/* ---------- Published papers, 2025 and after ---------- */}}
+        {{ $years := slice }}
+
+        {{ range .Pages.ByDate.Reverse }}
+          {{ $year := .Date.Format "2006" }}
+          {{ if ge $year "2025" }}
+            {{ $years = $years | append $year }}
+          {{ end }}
+        {{ end }}
+
+        {{ range $year := uniq $years }}
+          <div class="pub-section-heading">
+            <span></span>
+            <h2>{{ $year }}</h2>
+            <span></span>
+          </div>
+
+          {{ range $.Pages.ByDate.Reverse }}
+            {{ $pub_short := .Params.publication_short | default "" }}
+            {{ $pub_full := .Params.publication | default "" }}
+            {{ $is_preprint := or (in $pub_short "ArXiv") (in $pub_short "arXiv") (in $pub_full "ArXiv") (in $pub_full "arXiv") }}
+
+            {{ if and (eq (.Date.Format "2006") $year) (not $is_preprint) }}
+              {{ if .Params.publication_topics }}
+                {{ $topic_classes := "" }}
+
+                {{ if .Params.publication_topics }}
+                  {{ range .Params.publication_topics }}
+                    {{ $topic_classes = printf "%s pubtopic-%s" $topic_classes . }}
+                  {{ end }}
+                {{ else }}
+                  {{ $topic_classes = " pubtopic-0" }}
+                {{ end }}
+
+                <div class="pub-entry{{ $topic_classes }}">
+                  {{ partial "li_citation" . }}
+                </div>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        <div class="pub-section-heading">
+          <span></span>
+          <h2>Before 2025</h2>
+          <span></span>
+        </div>
+
+        {{ range .Pages.ByDate.Reverse }}
+          {{ $year := .Date.Format "2006" }}
+          {{ $pub_short := .Params.publication_short | default "" }}
+          {{ $pub_full := .Params.publication | default "" }}
+
+          {{ if and (lt $year "2025") (not (or (in $pub_short "ArXiv") (in $pub_short "arXiv") (in $pub_full "ArXiv") (in $pub_full "arXiv"))) }}
+            {{ if .Params.publication_topics }}
+              {{ $topic_classes := "" }}
+
+              {{ if .Params.publication_topics }}
+                {{ range .Params.publication_topics }}
+                  {{ $topic_classes = printf "%s pubtopic-%s" $topic_classes . }}
+                {{ end }}
+              {{ else }}
+                {{ $topic_classes = " pubtopic-0" }}
+              {{ end }}
+
+              <div class="pub-entry{{ $topic_classes }}">
+                {{ partial "li_citation" . }}
+              </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
       </div>
 
     </div>
@@ -101,38 +138,23 @@
 </div>
 
 <script>
-  // Function to get URL parameters
-  function getUrlParameter(name) {
-    name = name.replace(/[[]/, '\\[').replace(/[\]]/, '\\]');
-    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-    var results = regex.exec(location.search);
-    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-  };
+document.addEventListener("DOMContentLoaded", function () {
+  var filter = document.getElementById("pub-topic-filter-simple");
+  if (!filter) return;
 
-  function filterPublicationList() {
-    var selectedOption = document.getElementById('pub-topic-filter').value;
-    selectedOption = selectedOption.substring(1);
-    var publications = document.querySelectorAll('.grid-sizer');
-    
-    publications.forEach(function(publication) {
-      if (!publication.classList.contains(selectedOption)) {
-        publication.style.display = 'none';
+  filter.addEventListener("change", function () {
+    var value = filter.value;
+    var entries = document.querySelectorAll(".pub-entry");
+
+    entries.forEach(function (entry) {
+      if (value === "*" || entry.classList.contains(value)) {
+        entry.style.display = "";
+      } else {
+        entry.style.display = "none";
       }
     });
-  }
-
-  // Function to set selected option based on URL parameter
-  function setSelectedOption() {
-    var filterValue = getUrlParameter('filtertopic');
-    var selectElement = document.getElementById('pub-topic-filter');
-    if (filterValue) {
-      selectElement.value = filterValue;
-      filterPublicationList();
-    }
-  }
-
-  // Call the function when the page loads
-  window.onload = setSelectedOption;
+  });
+});
 </script>
 
 {{- end -}}

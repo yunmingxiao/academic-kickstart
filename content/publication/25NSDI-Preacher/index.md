@@ -7,7 +7,7 @@ authors:
 - Yanqi Gu
 - Aleksandar Kuzmanovic
 - Xiaowei Yang
-date: "2025-04-28T01:00:00Z"
+date: "2025-12-31T01:00:00Z"
 # doi: "10.1145/3627703.3629577"
 
 # Schedule page publish date (NOT publication's date).
@@ -25,8 +25,8 @@ publication_types: ["1"]
 publication_topics: ["0"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *NSDI'25* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: In *NSDI'25*
+publication: In Proceedings of *22nd USENIX Symposium on Networked Systems Design and Implementation*. 
+publication_short: NSDI'25
 # note: <b style='color:red;'>Best Student Paper Award!</b>
 
 abstract: "In today's Internet, websites widely rely on password authentication for user logins. However, the intensive computation required for password authentication exposes web servers to Application-layer DoS (ADoS) attacks exploiting the login interfaces. Existing solutions fail to simultaneously prevent such ADoS attacks, preserve password secrecy, and maintain good usability. In this paper, we present PreAcher, a system architecture that incorporates third-party Content Delivery Networks (CDNs) into the password authentication process and offloads the authentication workload to CDNs without divulging the passwords to them. At the core of PreAcher is a novel three-party authentication protocol that combines Oblivious Pseudorandom Function (OPRF) and Locality-Sensitive Hashing (LSH). This protocol allows CDNs to pre-authenticate users and thus filter out ADoS traffic without compromising password security. Our evaluations demonstrate that PreAcher significantly enhances the resilience of web servers against both ADoS attacks and preserves password security while introducing acceptable overheads. Notably, PreAcher can be deployed immediately by websites alone today, without modifications to client software or CDN infrastructure. We release the source code of PreAcher to facilitate its deployment and future research. "

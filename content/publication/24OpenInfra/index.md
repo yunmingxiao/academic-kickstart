@@ -12,7 +12,7 @@ authors:
 - Sylvia Ratnasamy
 - Xinyu Wang
 
-date: "2024-10-21T10:00:00Z"
+date: "2024-01-01T10:00:00Z"
 # doi: "10.1145/3651890.3672242"
 
 # Schedule page publish date (NOT publication's date).
@@ -30,8 +30,9 @@ publication_types: ["1"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *HotInfra'24* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: In *HotInfra'24*
+publication: In *Workshop on Hot Topics in System Infrastructure*. #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
+publication_short: HotInfra'24
+pub_badge_normal: true
 
 abstract: "Critical infrastructures like datacenters, power grids, and water systems are interdependent, forming complex \"infrastructure nexuses\" that require co-optimization for efficiency, resilience, and sustainability. We present OpenInfra, a co-simulation framework designed to model these interdependencies by integrating domain-specific simulators for datacenters, power grids, and cooling systems but focusing on stitching them together for end-to-end experimentation. OpenInfra enables seamless integration of diverse simulators and flexible configuration of infrastructure interactions. Our evaluation demonstrates its ability to simulate large-scale infrastructure dynamics, including 7,392 servers over 100+ hours. "
 

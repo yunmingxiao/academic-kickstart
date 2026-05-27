@@ -31,8 +31,8 @@ publication_types: ["1"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *NSDI'26* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: In *NSDI'26*
+publication: In Proceedings of *23rd USENIX Symposium on Networked Systems Design and Implementation*. 
+publication_short: NSDI'26
 # note: <b style='color:red;'>Best Paper Award!</b>
 
 abstract: "Large-scale cloud providers always deploy peering routing system at the Internet’s peering edge to route traffic between the cloud and the Internet. Traditional router-based peering systems fail to pace up to the fast-changing application requirements, while the recent host-based approach is not cost-effective and struggles to address malicious traffic from the Internet. In this paper, we advocate for a radical new peering architecture to introduce programmable switches at the peering edge. We propose and implement a first-of-its-kind system, called Janus, to simultaneously handle inbound and outbound network traffic and significantly reduce network hardware cost. The core of Janus’s approach is to leverage a traffic dispatch module to offload most of the outbound traffic to switches to enhance system’s scalability. Janus offloads all inbound traffic to switches and redirects potential malicious traffic to the anti-DDoS service to enhance system reliability. Furthermore, Janus introduces a fast route convergence mechanism to effectively handle Internet-scale route updates. We have gradually deployed Janus at the edge of our production network over the past year. Evaluation results show that Janus can reduce the average hardware cost by 78%, as compared to existing systems while gracefully handling DDoS issues. Meanwhile, Janus can reduce the route convergence within seconds under failure scenarios, which is orders of magnitude faster than the existing approach. "

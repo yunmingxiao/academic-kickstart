@@ -23,8 +23,9 @@ publication_types: ["1"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: To appear in *APNet'26* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: To appear in *APNet'26*
+publication: To appear in Proceedings of *the 10th Asia-Pacific Workshop on Networking*. 
+publication_short: APNet'26
+pub_badge_normal: true
 # note: <b style='color:red;'>Best Paper Award!</b>
 
 abstract: "Decentralized compute markets claim to be an alternative to the cloud, yet the systems community lacks hard evidence on whether they can run modern workloads end to end. We put this claim to the test by deploying a Retrieval-Augmented Generation (RAG) pipeline on the Akash and Golem networks. Our analysis reveals a striking paradox: supply is abundant, with over 10,000 CPU cores and 50~TiB of memory available, yet utilization remains minimal (about 0.3% on Akash). When mapped carefully, several RAG pipeline stages execute correctly and up to 3x cheaper than AWS. Others degrade under node churn and network bottlenecks. The limiting factor is not raw capacity but predictability. We also observe that decentralization in practice is already hybrid, with centralized gateways and offchain services masking blockchain complexity. Taken together, our findings suggest that decentralized markets are neither hype nor drop-in cloud replacements, but an underutilized substrate whose viability depends on better scheduling, reliability mechanisms, and trust primitives. "

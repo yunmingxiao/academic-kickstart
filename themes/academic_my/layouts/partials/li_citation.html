@@ -1,47 +1,47 @@
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <!-- <i class="far fa-file-alt pub-icon" aria-hidden="true"></i> -->
 
-  {{/* APA Style */}}
-  {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
-
-  <a href="{{ .RelPermalink }}" itemprop="name">{{ .Title }}</a>.<br>
-  <span itemprop="author" class="article-metadata li-cite-author">
-    {{ partial "page_metadata_authors" . }}
-  </span>
-  ({{- .Date.Format "2006" -}}).<br>
-  {{ if .Params.publication_short }}
-  {{- .Params.publication_short | markdownify -}}. 
-    {{ if .Params.note }}
-      {{- .Params.note | markdownify -}}
+  <div class="pub-row">
+    {{ if .Params.publication_short }}
+      <div class="pub-venue-badge {{ if .Params.pub_badge_normal }}pub-venue-normal{{ end }}">
+        {{ .Params.publication_short | markdownify }}
+      </div>
     {{ end }}
-  {{ else if .Params.publication }}
-  {{- .Params.publication | markdownify -}}.
-    {{ if .Params.note }}
-      {{- .Params.note | markdownify -}}
-    {{ end }}
-  {{ end }}
-  <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
 
-  {{/* MLA Style */}}
-  {{ else }}
+    <div class="pub-content">
+      <a href="{{ .RelPermalink }}" itemprop="name">{{ .Title }}</a>.<br>
 
-  <span itemprop="author" class="article-metadata li-cite-author">
-    {{ partial "page_metadata_authors" . }}
-  </span>.
-  <a href="{{ .RelPermalink }}" itemprop="name">{{ .Title }}</a>.
-  {{ if .Params.publication_short }}
-  {{- .Params.publication_short | markdownify -}},
-    {{ if .Params.note }}
-      {{- .Params.note | markdownify -}}
-    {{ end }}
-  {{ else if .Params.publication }}
-  {{- .Params.publication | markdownify -}},
-    {{ if .Params.note }}
-      {{- .Params.note | markdownify -}}
-    {{ end }}
-  {{ end }}
-  {{- .Date.Format "2006" -}}.
-  <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
+      <span itemprop="author" class="article-metadata li-cite-author">
+        {{ partial "page_metadata_authors" . }}
+      </span>
 
-  {{ end }}
+      <!-- ({{- .Date.Format "2006" -}}).<br> -->
+      <br>
+
+      {{ $pub_short := .Params.publication_short | default "" }}
+      {{ $pub_full := .Params.publication | default "" }}
+
+      {{ $is_preprint := or
+          (in $pub_short "ArXiv")
+          (in $pub_short "arXiv")
+          (in $pub_full "ArXiv")
+          (in $pub_full "arXiv")
+      }}
+
+      {{ if and .Params.publication (not $is_preprint) }}
+        <span class="pub-full-venue">
+          {{ .Params.publication | markdownify }}
+        </span>
+      {{ end }}
+
+      {{ if .Params.note }}
+        <br>
+        <span class="pub-note">
+          {{ .Params.note | markdownify }}
+        </span>
+      {{ end }}
+
+      <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
+    </div>
+  </div>
 </div>

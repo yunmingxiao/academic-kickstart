@@ -21,11 +21,12 @@ publication_types: ["2"]
 # Publication topic.
 # Legend: 0 = Security and Privacy; 1 = System Reliability; 2 = MLSys; 
 # 3 = Federated Learning; 4 = Blockchain; 5 = Undergraduate Projects;  6 = Uncategorized; 
-publication_topics: ["3"]
+publication_topics: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *EURO Journal on Computational Optimization*
-publication_short: In *EURO Journal on Computational Optimization*
+publication: In *EURO Journal on Computational Optimization*, 10, 100047.
+publication_short: EJCO
+pub_badge_normal: true
 
 abstract: Optimization acceleration techniques such as momentum play a key role in state-of-the-art machine learning algorithms. Recently, generic vector sequence extrapolation techniques, such as regularized nonlinear acceleration (RNA) of Scieur et al., were proposed and shown to accelerate fixed point iterations. In contrast to RNA which computes extrapolation coefficients by (approximately) setting the gradient of the objective function to zero at the extrapolated point, we propose a more direct approach, which we call direct nonlinear acceleration (DNA). In DNA, we aim to minimize (an approximation of) the function value at the extrapolated point instead. We adopt a regularized approach with regularizers designed to prevent the model from entering a region in which the functional approximation is less precise. While the computational cost of DNA is comparable to that of RNA, our direct approach significantly outperforms RNA on both synthetic and real-world datasets. While the focus of this paper is on convex problems, we obtain very encouraging results in accelerating the training of neural networks.
 

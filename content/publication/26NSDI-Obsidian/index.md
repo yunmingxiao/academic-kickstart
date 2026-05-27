@@ -23,8 +23,8 @@ publication_types: ["1"]
 publication_topics: ["0"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *NSDI'26* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: In *NSDI'26*
+publication: In Proceedings of *23rd USENIX Symposium on Networked Systems Design and Implementation*. 
+publication_short: NSDI'26
 # note: <b style='color:red;'>Best Paper Award!</b>
 
 abstract: "Online advertising is an essential part of the web ecosystem. When a user's browser lands on a webpage, advertisers bid for the ad space on the webpage. An auction algorithm (e.g., Vickrey/second-price auction) is executed to determine the winner and the price---ideally, only this information is revealed, and everything else (i.e., the losing bids and the bidder identities) is kept private. However, achieving these privacy goals under a malicious security model, while operating under stringent performance requirements, is challenging. 

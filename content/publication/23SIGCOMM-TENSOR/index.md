@@ -28,8 +28,8 @@ publication_types: ["1"]
 publication_topics: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *SIGCOMM'23* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: In *SIGCOMM'23*
+publication: In Proceedings of *the ACM SIGCOMM 2023 Conference*.
+publication_short: SIGCOMM'23
 
 abstract: "As the solitary inter-domain protocol, BGP plays an important role in today’s Internet. Its failures threaten network stability and will usually result in large-scale packet losses. Thus, the non-stop routing (NSR) capability that protects inter-domain connectivity from being disrupted by various failures, is critical to any Autonomous System (AS) operator. Replicating the BGP and underlying TCP connection status is key to realizing NSR. But existing NSR solutions, which heavily rely on OS kernel modifications, have become impractical due to providers’ adoption of virtualized network gateways for better scalability and manageability.
 

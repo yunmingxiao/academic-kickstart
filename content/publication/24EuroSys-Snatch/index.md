@@ -5,7 +5,7 @@ authors:
 - Yibo Zhao
 - Sen Lin
 - Aleksandar Kuzmanovic
-date: "2024-01-01T10:00:00Z"
+date: "2024-09-11T10:00:00Z"
 doi: "10.1145/3627703.3629577"
 
 # Schedule page publish date (NOT publication's date).
@@ -23,8 +23,8 @@ publication_types: ["1"]
 publication_topics: ["0"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *EuroSys'24* #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
-publication_short: In *EuroSys'24*
+publication: In Proceedings of *the Nineteenth European Conference on Computer Systems*. #In Proceedings of the *ACM on Measurement and Analysis of Computing Systems* 
+publication_short: EuroSys'24
 note: <b style='color:red;'>Best Student Paper Award!</b>
 
 abstract: "In recent years, we have witnessed a growing trend of content hyper-giants deploying server infrastructure and services close to end-users, in “eyeball” networks. Still, one of the services that remained largely unaffected by this trend is online streaming analytics. This is despite the fact that most of the “big data” is received in real time and is most valuable at the time of arrival. The inability to process requests at the network edge is caused by a common setting where user profiles, necessary for analytics, are stored deep in the data center backends. This setting also carries privacy concerns as such user profiles are individually identifiable, yet the users are almost blind to what data is associated with their identities and how the data is analyzed. In this paper, we revise this arrangement, and plant encrypted semantic cookies at the user end. Without altering any of the existing protocols, this enables capturing and analytically pre-processing user requests soon after they are generated, at edge ISPs or content providers’ off-nets. In addition, it ensures user anonymity perseverance during the analytics. We design and implement Snatch, a QUIC-based streaming analytics prototype, and demonstrate that it speeds up user analytics by up to 200x, and by 10-30x in the common case. "

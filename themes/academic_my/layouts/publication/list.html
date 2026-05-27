@@ -1,0 +1,49 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+
+  {{ with .Content }}
+  <div class="article-style" itemprop="articleBody">{{ . }}</div>
+  {{ end }}
+
+  {{ $pubs := .Pages.ByDate.Reverse }}
+
+  {{ $preprints := where $pubs "Params.publication_types" "intersect" (slice "3") }}
+  {{ $non_preprints := complement $preprints $pubs }}
+
+  {{ if gt (len $preprints) 0 }}
+    <h2>Preprints</h2>
+    {{ range $preprints }}
+      {{ partial "li_citation" . }}
+    {{ end }}
+  {{ end }}
+
+  {{ $pubs2026 := where $non_preprints ".Date.Format" "2006" "2026" }}
+  {{ if gt (len $pubs2026) 0 }}
+    <h2>2026</h2>
+    {{ range $pubs2026 }}
+      {{ partial "li_citation" . }}
+    {{ end }}
+  {{ end }}
+
+  {{ $pubs2025 := where $non_preprints ".Date.Format" "2006" "2025" }}
+  {{ if gt (len $pubs2025) 0 }}
+    <h2>2025</h2>
+    {{ range $pubs2025 }}
+      {{ partial "li_citation" . }}
+    {{ end }}
+  {{ end }}
+
+  {{ $before2025 := where $non_preprints ".Date.Year" "lt" 2025 }}
+  {{ if gt (len $before2025) 0 }}
+    <h2>Before 2025</h2>
+    {{ range $before2025 }}
+      {{ partial "li_citation" . }}
+    {{ end }}
+  {{ end }}
+
+</div>
+
+{{- end -}}
